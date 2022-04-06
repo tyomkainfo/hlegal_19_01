@@ -1,0 +1,15 @@
+@import "HnatenkoV";
+@import "conera";
+@import "Roman13456";
+@import "VitLozov";
+@import "Nik12623";
+@import "NataliiaBenko";
+@import "AlyonaDem";
+@import "Egorrr3";
+
+
+@mixin max-screen($res) {
+  @media screen and (max-width: $res) {
+    @content;
+  }
+}
