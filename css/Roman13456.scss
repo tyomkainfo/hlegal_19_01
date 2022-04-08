@@ -1,6 +1,6 @@
 $main_font:'Montserrat', sans-serif;
 $font_weight_bold:700;
-$font_weight_light:700;
+$font_weight_light:400;
 @mixin max-screen($res) {
   @media screen and (max-width: $res) {
     @content;
