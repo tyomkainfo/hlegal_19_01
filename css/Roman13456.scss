@@ -12,10 +12,54 @@ a{
 img{
   display: block;
 }
+header {
+  .navbar-light {
+    .navbar-nav {
+      .nav-item {
+        transition: 0.3s;
+        margin-left: 32px;
+
+        .nav-link {
+          font-family: $main_font;
+          font-style: normal;
+          font-weight: 400;
+          font-size: 15px;
+          line-height: 24px;
+          color: #1B1A1A;
+          padding: 0;
+        }
+
+        &:hover {
+          .nav-link {
+            color: gray;
+            transition: 0.5s;
+          }
+        }
+
+        &:last-of-type {
+          background: #1B1A1A;
+          border-radius: 14px;
+          padding: 11px 20px;
+          &:hover {
+            .nav-link {
+              color: gray;
+              transition: 0.5s;
+            }
+          }
+
+          .nav-link {
+            font-size: 1rem;
+            color: white;
+          }
+        }
+      }
+    }
+  }
+}
 .services{
   background: linear-gradient(228.57deg, #323264 11.93%, #323264 57.17%, #643E72 87.46%);
   border-radius: 0 0 7px 7px;
-  padding: 65px 0 0;
+  padding: 176px 0 0;
   .container{
     .row{
         div {
