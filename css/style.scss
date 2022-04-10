@@ -8,8 +8,26 @@
 @import "Egorrr3";
 
 
+$main_color: #323264;
+$alt_color: #46466E;
+$soft_color: #686887;
+$regular_color: #24A3FF;
+$hover_color: #0085FF;
+$active_color: #0085FF;
+$accent_color: #F0145A;
+$text_color: #B3B3BA;
+$main_font:'Montserrat', sans-serif;
+$fw_regular:400;
+$fw_bold:700;
+
+
+
 @mixin max-screen($res) {
   @media screen and (max-width: $res) {
     @content;
   }
+}
+
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+  margin: 0;
 }
