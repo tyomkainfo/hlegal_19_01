@@ -460,11 +460,9 @@ header {
       @media screen and (max-width: 768px) {
         .publications .row .col-md-4:last-of-type {
           width: 100%;
-          margin-top: 30px; } }
-@media screen and (max-width: 768px) and (max-width: 768px) {
-  .publications .row .col-md-4.div:last-child:last-child {
-    height: auto; } }
-
+          margin-top: 30px; }
+        .publications .row .col-md-4.div:last-child:last-child {
+          height: auto; } }
       @media screen and (max-width: 576px) {
         .publications .row .col-md-4 {
           margin-top: 30px;

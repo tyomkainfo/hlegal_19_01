@@ -174,10 +174,8 @@
           margin-top: 30px;
         }
         &.div:last-child{
-          @include max-screen(768px){
             &:last-child{
               height: auto;
-            }
           }
         }
       }
