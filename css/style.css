@@ -162,49 +162,49 @@ a {
 img {
   display: block; }
 
-/*header {
-  .navbar-light {
-    .navbar-nav {
-      .nav-item {
-        transition: 0.3s;
-        margin-left: 32px;
-
-        .nav-link {
-          font-family: $main_font;
-          font-style: normal;
-          font-weight: 400;
-          font-size: 15px;
-          line-height: 24px;
-          color: #1B1A1A;
-          padding: 0;
-        }
-
-        &:hover {
-          .nav-link {
-            color: gray;
-            transition: 0.5s;
-          }
-        }
-
-        &:last-of-type {
-          background: #1B1A1A;
-          border-radius: 14px;
-          padding: 11px 20px;
-          &:hover {
-            .nav-link {
-              color: gray;
-              transition: 0.5s;
-            }
-          }
-
-          .nav-link {
-            font-size: 1rem;
-            color: white;
-          }
-        }
-      }
-    }
-  }
+/*header {
+  .navbar-light {
+    .navbar-nav {
+      .nav-item {
+        transition: 0.3s;
+        margin-left: 32px;
+
+        .nav-link {
+          font-family: $main_font;
+          font-style: normal;
+          font-weight: 400;
+          font-size: 15px;
+          line-height: 24px;
+          color: #1B1A1A;
+          padding: 0;
+        }
+
+        &:hover {
+          .nav-link {
+            color: gray;
+            transition: 0.5s;
+          }
+        }
+
+        &:last-of-type {
+          background: #1B1A1A;
+          border-radius: 14px;
+          padding: 11px 20px;
+          &:hover {
+            .nav-link {
+              color: gray;
+              transition: 0.5s;
+            }
+          }
+
+          .nav-link {
+            font-size: 1rem;
+            color: white;
+          }
+        }
+      }
+    }
+  }
 }*/
 header {
   padding-top: 50px; }
@@ -223,7 +223,7 @@ header {
   border-radius: 0 0 7px 7px;
   padding: 65px 0 0; }
   .services .container .row div:first-of-type {
-    font-family: "Montserrat", sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 38px;
@@ -239,7 +239,7 @@ header {
       margin-bottom: 30px; }
     .services .container .row div.col-12.col-md-6 a {
       cursor: pointer;
-      font-family: "Montserrat", sans-serif;
+      font-family: 'Montserrat', sans-serif;
       font-style: normal;
       font-weight: 700;
       font-size: 22px;
@@ -250,7 +250,7 @@ header {
         color: #F0145A;
         transition: 0.5s; }
     .services .container .row div.col-12.col-md-6 p {
-      font-family: "Montserrat", sans-serif;
+      font-family: 'Montserrat', sans-serif;
       font-style: normal;
       font-weight: 400;
       font-size: 16px;
@@ -264,7 +264,7 @@ header {
     text-align: center;
     margin-bottom: 30px; }
   .companies .container-xxl .row .col-12 h5 {
-    font-family: "Montserrat", sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 14px;
@@ -280,9 +280,9 @@ header {
     .companies .container-xxl .row .col-12.col-md-4:nth-child(2) {
       background: #1C4280;
       border-radius: 10px 0 0 0; }
-      @media screen and (max-width: 1440px) {
-        .companies .container-xxl .row .col-12.col-md-4:nth-child(2) {
-          border-radius: 0 0 0 0; } }
+  @media screen and (max-width: 1440px) {
+    .companies .container-xxl .row .col-12.col-md-4:nth-child(2) {
+      border-radius: 0 0 0 0; } }
     .companies .container-xxl .row .col-12.col-md-4:nth-child(3) {
       background: #143646; }
     .companies .container-xxl .row .col-12.col-md-4:nth-child(4) {
@@ -290,9 +290,9 @@ header {
     .companies .container-xxl .row .col-12.col-md-4:nth-child(5) {
       background: #9E4DC3;
       border-radius: 0 10px 0 0; }
-      @media screen and (max-width: 1440px) {
-        .companies .container-xxl .row .col-12.col-md-4:nth-child(5) {
-          border-radius: 0 0 0 0; } }
+  @media screen and (max-width: 1440px) {
+    .companies .container-xxl .row .col-12.col-md-4:nth-child(5) {
+      border-radius: 0 0 0 0; } }
     .companies .container-xxl .row .col-12.col-md-4:nth-child(6) {
       background: #FD9339; }
     .companies .container-xxl .row .col-12.col-md-4:nth-child(7) {
@@ -304,9 +304,9 @@ header {
     .companies .container-xxl .row .col-12.col-md-4:nth-child(10) {
       background: #EAEAEA;
       border-radius: 0 0 0 10px; }
-      @media screen and (max-width: 1440px) {
-        .companies .container-xxl .row .col-12.col-md-4:nth-child(10) {
-          border-radius: 0 0 0 0; } }
+  @media screen and (max-width: 1440px) {
+    .companies .container-xxl .row .col-12.col-md-4:nth-child(10) {
+      border-radius: 0 0 0 0; } }
     .companies .container-xxl .row .col-12.col-md-4:nth-child(11) {
       background: #282240; }
     .companies .container-xxl .row .col-12.col-md-4:nth-child(12) {
@@ -314,9 +314,9 @@ header {
     .companies .container-xxl .row .col-12.col-md-4:nth-child(13) {
       background: #000000;
       border-radius: 0 0 10px 0; }
-      @media screen and (max-width: 1440px) {
-        .companies .container-xxl .row .col-12.col-md-4:nth-child(13) {
-          border-radius: 0 0 0 0; } }
+  @media screen and (max-width: 1440px) {
+    .companies .container-xxl .row .col-12.col-md-4:nth-child(13) {
+      border-radius: 0 0 0 0; } }
 
 .commerce {
   background: linear-gradient(228.57deg, #323264 11.93%, #323264 57.17%, #643E72 87.46%);
@@ -457,19 +457,19 @@ header {
       display: flex;
       flex-direction: column;
       flex-grow: 0; }
-      @media screen and (max-width: 768px) {
-        .publications .row .col-md-4:last-of-type {
-          width: 100%;
-          margin-top: 30px; }
-        .publications .row .col-md-4.div:last-child:last-child {
-          height: auto; } }
-      @media screen and (max-width: 576px) {
-        .publications .row .col-md-4 {
-          margin-top: 30px;
-          width: 100%; } }
-      @media screen and (max-width: 576px) {
-        .publications .row .col-md-4 div {
-          height: auto; } }
+  @media screen and (max-width: 768px) {
+    .publications .row .col-md-4:last-of-type {
+      width: 100%;
+      margin-top: 30px; }
+    .publications .row .col-md-4.div:last-child:last-child {
+      height: auto; } }
+  @media screen and (max-width: 576px) {
+    .publications .row .col-md-4 {
+      margin-top: 30px;
+      width: 100%; } }
+  @media screen and (max-width: 576px) {
+    .publications .row .col-md-4 div {
+      height: auto; } }
       .publications .row .col-md-4 img {
         border-radius: 8px 8px 0 0; }
       .publications .row .col-md-4 div {
@@ -550,7 +550,7 @@ footer.footer_commerce {
   margin-right: 30px; }
 
 .font_style {
-  font-family: "Montserrat", sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 38px;
@@ -565,7 +565,7 @@ footer.footer_commerce {
   padding-right: 10px; }
 
 .font_grey {
-  font-family: "Montserrat", sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
@@ -573,19 +573,25 @@ footer.footer_commerce {
   color: #B3B3BA; }
 
 .font_blue {
-  font-family: "Montserrat", sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 20px;
   color: #24A3FF; }
 
+.t_decoration {
+  text-decoration: none; }
+  .t_decoration:hover {
+    color: yellow;
+    transition: 0.5s; }
+
 .separator {
   margin-top: 30px;
   margin-bottom: 30px; }
 
 .paragraph {
-  font-family: "Montserrat", sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -593,7 +599,7 @@ footer.footer_commerce {
   color: #000000; }
 
 .head {
-  font-family: "Montserrat", sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 14px;
@@ -608,5 +614,3 @@ footer.footer_commerce {
 
 h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5 {
   margin: 0; }
-
-/*# sourceMappingURL=style.css.map */

@@ -40,6 +40,13 @@ $font_weight_light:400;
   line-height: 20px;
   color: #24A3FF;
 }
+.t_decoration{
+  text-decoration: none;
+  &:hover{
+    color: yellow;
+    transition: 0.5s;
+  }
+}
 .separator{
   margin-top: 30px;
   margin-bottom: 30px;
@@ -66,3 +73,11 @@ $font_weight_light:400;
   margin-top: 30px;
   margin-bottom: 15px;
 }
+//@media only screen and (max-width: 768px) {
+//  .kobzar_img{
+//
+//  }
+//  .{
+//
+//  }
+//}
