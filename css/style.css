@@ -206,10 +206,20 @@ img {
     }
   }
 }*/
+header {
+  padding-top: 50px; }
+  header.white ul:nth-child(1) .top {
+    color: white; }
+  header.white ul:nth-child(1) li:nth-child(5) {
+    color: white; }
+  @media screen and (max-width: 400px) {
+    header .navbar-brand {
+      max-width: 200px; } }
+
 .services {
   background: linear-gradient(228.57deg, #323264 11.93%, #323264 57.17%, #643E72 87.46%);
   border-radius: 0 0 7px 7px;
-  padding: 176px 0 0; }
+  padding: 65px 0 0; }
   .services .container .row div:first-of-type {
     font-family: "Montserrat", sans-serif;
     font-style: normal;
