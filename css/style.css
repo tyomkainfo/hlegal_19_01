@@ -398,30 +398,36 @@ header {
       line-height: 27px;
       color: #FFFFFF;
       margin-bottom: 30px; }
-    .commerce .row.commerce_bottom .col-md-6 ul {
+    .commerce .row.commerce_bottom ul {
       list-style-type: none;
       padding-left: 16px; }
-    .commerce .row.commerce_bottom .col-md-6 li {
-      font-family: 'Montserrat',sans-serif;
-      font-style: normal;
-      font-weight: 400;
-      font-size: 18px;
-      line-height: 26px;
-      color: #FFFFFF;
-      position: relative; }
-      .commerce .row.commerce_bottom .col-md-6 li:before {
-        display: inline-block;
-        background-color: #F0145A;
-        content: "";
-        height: 6px;
-        width: 6px;
-        border-radius: 50%;
-        position: absolute;
-        left: -16px;
-        top: 10px; }
+      .commerce .row.commerce_bottom ul:first-of-type {
+        padding: 0 37px 0 15px; }
+      .commerce .row.commerce_bottom ul:last-of-type {
+        padding: 0 15px 0 37px; }
+      .commerce .row.commerce_bottom ul li {
+        font-family: 'Montserrat',sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 26px;
+        color: #FFFFFF;
+        position: relative; }
+        .commerce .row.commerce_bottom ul li:before {
+          display: inline-block;
+          background-color: #F0145A;
+          content: "";
+          height: 6px;
+          width: 6px;
+          border-radius: 50%;
+          position: absolute;
+          left: -16px;
+          top: 10px; }
+
+.shadow_img {
+  margin-bottom: 80px; }
 
 .publications {
-  margin-top: 80px;
   padding: 90px 0 30px 0;
   background: #F5F5FA;
   border-radius: 12px 12px 0 0; }
@@ -537,6 +543,11 @@ header {
 
 header.header_commerce {
   background: #323264 57.17%; }
+  header.header_commerce .navbar-light .navbar-brand {
+    width: 318px;
+    height: 60px;
+    background-image: url("../images/dark_logo.svg");
+    background-repeat: no-repeat; }
   header.header_commerce .navbar-light ul:nth-child(2) li:hover, header.header_commerce .navbar-light ul:nth-child(2) li:active {
     border-bottom: none;
     transition: none; }
