@@ -1,0 +1,220 @@
+.penalty {
+  padding: 30px 0 14px 0; }
+  @media screen and (max-width: 648px) {
+    .penalty {
+      padding: 60px 0 14px 0; } }
+  .penalty .penalty_img {
+    position: relative;
+    overflow: hidden;
+    width: 315px;
+    height: 300px;
+    border-radius: 12px; }
+    .penalty .penalty_img img {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      -webkit-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+      transform: translate(-50%, -50%);
+      width: 315px;
+      height: 300px;
+      -o-object-fit: cover;
+      object-fit: cover; }
+  .penalty h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    color: #323264;
+    max-width: 315px;
+    margin: 30px 0 15px 0; }
+  .penalty h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 15px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #B3B3BA; }
+    .penalty h3:after {
+      content: "";
+      display: block;
+      max-width: 315px;
+      margin: 30px 0;
+      border-bottom: solid 4px #E6E6F0; }
+  .penalty p {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #000000;
+    max-width: 315px; }
+
+.advertising {
+  padding-bottom: 60px; }
+  .advertising h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 37px;
+    background: linear-gradient(90.13deg, #F0145A 0.84%, #EF8080 99.96%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+    max-width: 315px;
+    margin-bottom: 30px; }
+  .advertising h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    color: #323264;
+    max-width: 315px;
+    margin-bottom: 30px; }
+  .advertising ol {
+    max-width: 315px; }
+    .advertising ol li {
+      font-family: 'Montserrat', sans-serif;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 18px;
+      line-height: 26px;
+      color: #000000;
+      margin-bottom: 15px; }
+      .advertising ol li::marker {
+        font-family: 'Montserrat', sans-serif;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 26px;
+        color: #F0145A; }
+      .advertising ol li:last-child {
+        margin-bottom: 30px; }
+  .advertising p {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #000000;
+    max-width: 315px;
+    margin-bottom: 30px; }
+  .advertising .img_block img {
+    width: 315px;
+    height: 196px;
+    margin-bottom: 15px; }
+  .advertising .img_block p {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    text-align: center;
+    color: #B3B3BA;
+    margin-bottom: 30px; }
+  .advertising h4 {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    color: #323264;
+    max-width: 315px;
+    margin-bottom: 15px; }
+  .advertising .social_media:before {
+    content: "";
+    display: block;
+    max-width: 315px;
+    margin: 30px 0;
+    border-bottom: solid 4px #E6E6F0; }
+  .advertising .social_media a {
+    margin-right: 10px;
+    background: #F5F5FA;
+    border-radius: 12px;
+    cursor: pointer; }
+    .advertising .social_media a img {
+      margin: 9px;
+      height: 24px;
+      width: 24px; }
+
+.recommended {
+  padding: 30px 0 30px 0;
+  background: #F5F5FA;
+  border-radius: 12px 12px 0 0; }
+  .recommended .recommended_publications {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #24A3FF; }
+    .recommended .recommended_publications:after {
+      content: "\f105";
+      font-family: 'FontAwesome';
+      font-size: 12px;
+      margin-left: 5px; }
+  .recommended h4 {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 37px;
+    background: linear-gradient(90.13deg, #F0145A 0.84%, #EF8080 99.96%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+    margin-bottom: 30px; }
+  .recommended .recommended_content {
+    max-width: 315px;
+    background: #FFFFFF;
+    border-radius: 8px;
+    margin-bottom: 30px;
+    overflow: hidden; }
+    .recommended .recommended_content img {
+      width: 315px;
+      height: 200px; }
+    .recommended .recommended_content a {
+      font-family: 'Montserrat', sans-serif;
+      font-style: normal;
+      font-weight: 700;
+      font-size: 16px;
+      line-height: 20px;
+      color: #24A3FF;
+      max-width: 255px;
+      display: block;
+      margin: 30px auto 15px; }
+    .recommended .recommended_content h6 {
+      font-family: 'Montserrat', sans-serif;
+      font-style: normal;
+      font-weight: 700;
+      font-size: 12px;
+      line-height: 15px;
+      letter-spacing: 1px;
+      text-transform: uppercase;
+      color: #B3B3BA;
+      max-width: 255px;
+      margin: auto; }
+      .recommended .recommended_content h6:after {
+        content: "";
+        display: block;
+        max-width: 255px;
+        margin: 15px auto;
+        border-bottom: solid 4px #E6E6F0; }
+    .recommended .recommended_content p {
+      font-family: 'Montserrat', sans-serif;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 22px;
+      color: #000000;
+      max-width: 255px;
+      margin: 0 auto 30px; }
