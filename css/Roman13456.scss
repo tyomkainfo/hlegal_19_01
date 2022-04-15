@@ -80,10 +80,14 @@ header{
     content: "";
     position: absolute;
     width: 100%;
-    background: url("../images/Shadow.svg") no-repeat ;
+    background: url("../images/Shadow.svg") no-repeat;
     background-size: contain;
     bottom: -20px;
     height: 20px;
+    @media screen and (min-width: 1920px) {
+      background-size: cover;
+      background-position: center;
+    }
   }
   background: linear-gradient(228.57deg, #323264 11.93%, #323264 57.17%, #643E72 87.46%);
   border-radius: 0 0 7px 7px;
@@ -110,9 +114,6 @@ header{
         &.col-12.col-md-6{
           max-width: 493px;
           margin-bottom: 60px;
-          @media screen and (max-width: 1024px) {
-
-          }
           img{
             margin-bottom: 30px;
           }
@@ -147,6 +148,9 @@ header{
 .companies{
   padding: 60px 0;
   .container-fluid {
+    @media screen and (min-width: 1920px) {
+      max-width: 1720px;
+    }
     .row {
       .heading{
         &:first-of-type{
@@ -216,7 +220,7 @@ header{
         }
         &:nth-child(10){
           border-radius: 0 0 0 10px;
-          @media screen and (max-width: 1440px) {
+          @media screen and (max-width: 1919px) {
             border-radius: 0 0 0 0;
           }
         }
@@ -233,7 +237,7 @@ header{
         }
         &:nth-child(13){
           border-radius: 0 0 10px 0;
-          @media screen and (max-width: 1440px) {
+          @media screen and (max-width: 1919px) {
             border-radius: 0 0 0 0;
           }
         }
