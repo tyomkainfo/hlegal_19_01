@@ -75,6 +75,17 @@ header{
   }
 }
 .services{
+  position: relative;
+  &:after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    background: url("../images/Shadow.svg") no-repeat bottom center;
+    display: block;
+    background-size: contain;
+    bottom: -16px;
+    height: 20px;
+  }
   background: linear-gradient(228.57deg, #323264 11.93%, #323264 57.17%, #643E72 87.46%);
   border-radius: 0 0 7px 7px;
   padding: 65px 0 0;
@@ -136,14 +147,13 @@ header{
 }
 .companies{
   padding: 60px 0;
-  .container-xxl {
+  .container-fluid {
     .row {
-      .col-12{
+      .heading{
         &:first-of-type{
           text-align: center;
           margin-bottom: 30px;
         }
-
         h5{
           font-family: $main_font;
           font-style: normal;
@@ -155,67 +165,74 @@ header{
           color: #323264;
         }
       }
-      .col-12.col-md-4{
+      .cell{
+        img{
+          display: block; margin: auto;
+        }
         height: 120px;
         display: flex;
-        a{
-          margin: auto;
+        &.hilel{
+          background: #1C4280;
         }
         &:nth-child(2){
-          background: #1C4280;
           border-radius: 10px 0 0 0;
-          @media screen and (max-width: 1440px) {
+          @media screen and (max-width: 1919px) {
             border-radius: 0 0 0 0;
           }
         }
-        &:nth-child(3){
+        &.wanna-biz{
           background: #143646;
         }
-        &:nth-child(4){
+        &.tapgerine{
           background: linear-gradient(0deg, #F48B30, #F48B30),
           linear-gradient(0deg, #F48B30, #F48B30);
         }
-        &:nth-child(5){
+        &.d-look{
           background: #9E4DC3;
+        }
+        &:nth-child(5){
           border-radius: 0 10px 0 0;
-          @media screen and (max-width: 1440px) {
+          @media screen and (max-width: 1919px) {
             border-radius: 0 0 0 0;
           }
         }
-        &:nth-child(6){
+        &.orangegear{
           background: #FD9339;
 
         }
-        &:nth-child(7){
+        &.adtelligent{
           background: #E2E2E4;
 
         }
-        &:nth-child(8){
+        &.clickky{
           background: #C71C36;
 
         }
-        &:nth-child(9){
+        &.ecolease{
           background: #DCF3F9;
 
         }
-        &:nth-child(10){
+        &.infratec{
           background: #EAEAEA;
+        }
+        &:nth-child(10){
           border-radius: 0 0 0 10px;
           @media screen and (max-width: 1440px) {
             border-radius: 0 0 0 0;
           }
-
         }
-        &:nth-child(11){
+        &.city-park{
           background: #282240;
 
         }
-        &:nth-child(12){
+        &.studio{
           background: #1D4568;
 
         }
-        &:nth-child(13){
+        &.logoM{
           background: #000000;
+        }
+        &:nth-child(13){
           border-radius: 0 0 10px 0;
           @media screen and (max-width: 1440px) {
             border-radius: 0 0 0 0;
