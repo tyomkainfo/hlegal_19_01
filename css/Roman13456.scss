@@ -80,10 +80,9 @@ header{
     content: "";
     position: absolute;
     width: 100%;
-    background: url("../images/Shadow.svg") no-repeat bottom center;
-    display: block;
+    background: url("../images/Shadow.svg") no-repeat ;
     background-size: contain;
-    bottom: -16px;
+    bottom: -20px;
     height: 20px;
   }
   background: linear-gradient(228.57deg, #323264 11.93%, #323264 57.17%, #643E72 87.46%);
