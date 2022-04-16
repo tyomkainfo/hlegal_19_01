@@ -129,6 +129,10 @@
   background: #F5F5FA;
   border-radius: 12px;
   cursor: pointer;
+  transition: 0.2s;
+}
+.advertising .social_media a:hover {
+  background: #EDEDF7;
 }
 .advertising .social_media a img {
   margin: 9px;
@@ -150,12 +154,28 @@
   letter-spacing: 1px;
   text-transform: uppercase;
   color: #24A3FF;
+  position: relative;
+  display: inline-block;
+  text-decoration: none;
+}
+.recommended .recommended_publications i {
+  font-size: 10px;
 }
 .recommended .recommended_publications:after {
-  content: "\f105";
-  font-family: "FontAwesome";
-  font-size: 12px;
-  margin-left: 5px;
+  content: "";
+  display: block;
+  opacity: 0;
+  width: 100%;
+  height: 1px;
+  background-color: #24A3FF;
+  position: absolute;
+  left: 0;
+  top: 100%;
+  z-index: 1;
+  transition: opacity 0.2s linear;
+}
+.recommended .recommended_publications:hover:after {
+  opacity: 1;
 }
 .recommended h4 {
   font-family: "Montserrat", sans-serif;
@@ -183,15 +203,36 @@
   display: flex;
   flex-direction: column;
 }
+@media screen and (max-width: 768px) {
+  .recommended .row .col-md-4:last-of-type {
+    width: 100%;
+    margin-top: 30px;
+  }
+  .recommended .row .col-md-4.div:last-child:last-child {
+    height: auto;
+  }
+}
+@media screen and (max-width: 576px) {
+  .recommended .row .col-md-4 {
+    margin-top: 30px;
+    width: 100%;
+  }
+}
+@media screen and (max-width: 576px) {
+  .recommended .row .col-md-4 div {
+    height: auto;
+  }
+}
+.recommended .row .col-md-4 img {
+  width: 315px;
+  height: 200px;
+  border-radius: 8px 8px 0 0;
+}
 .recommended .row .col-md-4 .recommended_content {
   background: #FFFFFF;
   border-radius: 8px;
   padding: 30px;
   height: 100%;
-}
-.recommended .row .col-md-4 .recommended_content img {
-  width: 315px;
-  height: 200px;
 }
 .recommended .row .col-md-4 .recommended_content a {
   font-family: "Montserrat", sans-serif;
@@ -200,8 +241,26 @@
   font-size: 16px;
   line-height: 20px;
   color: #24A3FF;
-  display: block;
   margin-bottom: 15px;
+  position: relative;
+  display: inline-block;
+  text-decoration: none;
+}
+.recommended .row .col-md-4 .recommended_content a:after {
+  content: "";
+  display: block;
+  opacity: 0;
+  width: 100%;
+  height: 2px;
+  background-color: #24A3FF;
+  position: absolute;
+  left: 0;
+  top: 100%;
+  z-index: 1;
+  transition: opacity 0.2s linear;
+}
+.recommended .row .col-md-4 .recommended_content a:hover:after {
+  opacity: 1;
 }
 .recommended .row .col-md-4 .recommended_content span {
   font-family: "Montserrat", sans-serif;
