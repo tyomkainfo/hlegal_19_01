@@ -2,9 +2,35 @@
 .penalty {
   padding: 60px 0 30px 0;
 }
+@media screen and (max-width: 376px) {
+  .penalty {
+    padding: 30px 0 14px 0;
+  }
+}
+@media screen and (max-width: 376px) {
+  .penalty .penalty_img {
+    position: relative;
+    overflow: hidden;
+    width: 315px;
+    height: 300px;
+    border-radius: 12px;
+  }
+}
 .penalty .penalty_img img {
   height: 500px;
   border-radius: 12px;
+}
+@media screen and (max-width: 376px) {
+  .penalty .penalty_img img {
+    width: 300px;
+    height: 300px;
+  }
+}
+@media screen and (max-width: 376px) {
+  .penalty .penalty_img img {
+    width: 300px;
+    height: 300px;
+  }
 }
 .penalty h2 {
   font-family: "Montserrat", sans-serif;
@@ -15,6 +41,12 @@
   color: #323264;
   margin: 30px 0 15px 0;
 }
+@media screen and (max-width: 376px) {
+  .penalty h2 {
+    font-size: 20px;
+    line-height: 24px;
+  }
+}
 .penalty h3 {
   font-family: "Montserrat", sans-serif;
   font-style: normal;
@@ -24,6 +56,12 @@
   letter-spacing: 1px;
   text-transform: uppercase;
   color: #B3B3BA;
+}
+@media screen and (max-width: 376px) {
+  .penalty h3 {
+    font-size: 12px;
+    line-height: 15px;
+  }
 }
 .penalty h3:after {
   content: "";
@@ -38,6 +76,12 @@
   font-size: 16px;
   line-height: 26px;
   color: #000000;
+}
+@media screen and (max-width: 376px) {
+  .penalty p {
+    font-size: 16px;
+    line-height: 26px;
+  }
 }
 
 .advertising {
@@ -56,6 +100,12 @@
   text-fill-color: transparent;
   margin-bottom: 30px;
 }
+@media screen and (max-width: 375px) {
+  .advertising h2 {
+    font-size: 30px;
+    line-height: 37px;
+  }
+}
 .advertising h3 {
   font-family: "Montserrat", sans-serif;
   font-style: normal;
@@ -64,6 +114,12 @@
   line-height: 27px;
   color: #323264;
   margin-bottom: 30px;
+}
+@media screen and (max-width: 376px) {
+  .advertising h3 {
+    font-size: 16px;
+    line-height: 20px;
+  }
 }
 .advertising ol li {
   font-family: "Montserrat", sans-serif;
@@ -97,6 +153,12 @@
 .advertising .img_block img {
   width: 640px;
   height: 398px;
+}
+@media screen and (max-width: 376px) {
+  .advertising .img_block img {
+    width: 315px;
+    height: 196px;
+  }
 }
 .advertising .img_block p {
   font-family: "Montserrat", sans-serif;
@@ -144,6 +206,9 @@
   padding: 30px 0 0 0;
   background: #F5F5FA;
   border-radius: 12px 12px 0 0;
+}
+.recommended .container {
+  max-width: 1320px;
 }
 .recommended .recommended_publications {
   font-family: "Montserrat", sans-serif;
@@ -202,6 +267,7 @@
 .recommended .row .col-md-4 {
   display: flex;
   flex-direction: column;
+  flex-grow: 0;
 }
 @media screen and (max-width: 768px) {
   .recommended .row .col-md-4:last-of-type {
@@ -224,8 +290,6 @@
   }
 }
 .recommended .row .col-md-4 img {
-  width: 315px;
-  height: 200px;
   border-radius: 8px 8px 0 0;
 }
 .recommended .row .col-md-4 .recommended_content {
@@ -263,6 +327,7 @@
   opacity: 1;
 }
 .recommended .row .col-md-4 .recommended_content span {
+  display: block;
   font-family: "Montserrat", sans-serif;
   font-style: normal;
   font-weight: 700;
@@ -271,12 +336,17 @@
   letter-spacing: 1px;
   text-transform: uppercase;
   color: #B3B3BA;
+  margin-bottom: 34px;
+  position: relative;
 }
 .recommended .row .col-md-4 .recommended_content span:after {
   content: "";
-  display: block;
-  margin: 15px 0 15px 0;
-  border-bottom: solid 4px #E6E6F0;
+  height: 4px;
+  width: 100%;
+  background: #E6E6F0;
+  position: absolute;
+  top: 30px;
+  left: 0;
 }
 .recommended .row .col-md-4 .recommended_content p {
   font-family: "Montserrat", sans-serif;
@@ -295,6 +365,11 @@ header.header_commerce.public_entry .navbar-light .navbar-brand {
   height: 60px;
   background-image: url("../images/publicationentrylogo.svg");
   background-repeat: no-repeat;
+}
+@media screen and (max-width: 376px) {
+  header.header_commerce.public_entry .navbar-light .navbar-brand {
+    background-image: url("../images/Logo_white_375.svg");
+  }
 }
 header.header_commerce.public_entry .navbar-light ul:nth-child(2) li:hover, header.header_commerce.public_entry .navbar-light ul:nth-child(2) li:active {
   border-bottom: none;
