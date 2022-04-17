@@ -217,21 +217,9 @@
 .recommended .recommended_publications i {
   font-size: 10px;
 }
-.recommended .recommended_publications:after {
-  content: "";
-  display: block;
-  opacity: 0;
-  width: 100%;
-  height: 2px;
-  background-color: #24A3FF;
-  position: absolute;
-  left: 0;
-  top: 100%;
-  z-index: 1;
-  transition: opacity 0.2s linear;
-}
-.recommended .recommended_publications:hover:after {
-  opacity: 1;
+.recommended .recommended_publications:hover {
+  color: #F0145A;
+  transition: 0.5s;
 }
 .recommended h4 {
   font-family: "Montserrat", sans-serif;
@@ -292,21 +280,9 @@
   display: inline-block;
   text-decoration: none;
 }
-.recommended .row .col-md-4 .recommended_content a:after {
-  content: "";
-  display: block;
-  opacity: 0;
-  width: 100%;
-  height: 2px;
-  background-color: #24A3FF;
-  position: absolute;
-  left: 0;
-  top: 100%;
-  z-index: 1;
-  transition: opacity 0.2s linear;
-}
-.recommended .row .col-md-4 .recommended_content a:hover:after {
-  opacity: 1;
+.recommended .row .col-md-4 .recommended_content a:hover {
+  color: #F0145A;
+  transition: 0.5s;
 }
 .recommended .row .col-md-4 .recommended_content span {
   display: block;
