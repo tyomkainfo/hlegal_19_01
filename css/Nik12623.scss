@@ -3,7 +3,7 @@
   border-radius: 0 0 12px 12px;
   .row {
     &.commerce_top {
-      padding: 65px 0 60px 0;
+      padding: 176px 0 60px 0;
       &:after{
         content: "";
         height: 4px;
@@ -252,27 +252,42 @@
 
 header{
   &.header_commerce{
-    background: #323264 57.17%;
     .navbar-light{
-      .navbar-brand{
+      .navbar-brand {
         width: 318px;
         height: 60px;
-        background-image: url("../images/dark_logo.svg") ;
-        background-repeat:no-repeat;
+        background-image: url("../images/dark_logo.svg");
+        background-repeat: no-repeat;
       }
-      ul{
-        &:nth-child(2){
-          li{
-            &:hover, &:active{
-              border-bottom: none;
-              transition: none;
-            }
+
+      .navbar-nav{
+        li{border-bottom: none;
+          &:hover, {
+            border-bottom: none;
           }
         }
-      }
-      .navbar-nav{
+
         .nav-item{
           color: #ffffff;
+          border-bottom: none;
+          &:hover, &:active {
+            border-bottom: none;
+
+          }
+          a{
+            &.number{
+              color: #ffffff;
+              &:hover, &:active {
+                color: #F0145A;
+              }
+            }
+          }
+          .iconify {
+            color: #FFFFFF;
+            &:hover, &:active {
+              color: #F0145A;
+            }
+          }
           .nav-link {
             position: relative;
             color: #FFFFFF;
