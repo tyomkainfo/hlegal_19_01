@@ -222,7 +222,7 @@
   display: block;
   opacity: 0;
   width: 100%;
-  height: 1px;
+  height: 2px;
   background-color: #24A3FF;
   position: absolute;
   left: 0;
@@ -344,6 +344,12 @@
     height: 57px;
     width: 215px;
   }
+}
+header.header_public .navbar .navbar-nav.navbar-public .nav-public:hover {
+  border-bottom: 3px #F0145A solid;
+}
+header.header_public .navbar .navbar-nav.navbar-public .nav-link.link_public {
+  color: #F0145A;
 }
 header.header_public .navbar .navbar-toggler .navbar-toggler-icon {
   background-image: url("../images/Hamburger.svg");
