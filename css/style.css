@@ -973,7 +973,7 @@ header {
   background: linear-gradient(228.57deg, #323264 11.93%, #323264 57.17%, #643E72 87.46%);
   border-radius: 0 0 12px 12px; }
   .commerce .row.commerce_top {
-    padding: 65px 0 60px 0; }
+    padding: 176px 0 60px 0; }
     .commerce .row.commerce_top:after {
       content: "";
       height: 4px;
@@ -1171,41 +1171,51 @@ header {
           line-height: 22px;
           color: #000000; }
 
-header.header_commerce {
-  background: #323264 57.17%; }
-  header.header_commerce .navbar-light .navbar-brand {
-    width: 318px;
-    height: 60px;
-    background-image: url("../images/dark_logo.svg");
-    background-repeat: no-repeat; }
-  header.header_commerce .navbar-light ul:nth-child(2) li:hover, header.header_commerce .navbar-light ul:nth-child(2) li:active {
-    border-bottom: none;
-    transition: none; }
-  header.header_commerce .navbar-light .navbar-nav .nav-item {
+header.header_commerce .navbar-light .navbar-brand {
+  width: 318px;
+  height: 60px;
+  background-image: url("../images/dark_logo.svg");
+  background-repeat: no-repeat; }
+header.header_commerce .navbar-light .navbar-nav li {
+  border-bottom: none; }
+  header.header_commerce .navbar-light .navbar-nav li:hover {
+    border-bottom: none; }
+header.header_commerce .navbar-light .navbar-nav .nav-item {
+  color: #ffffff;
+  border-bottom: none; }
+  header.header_commerce .navbar-light .navbar-nav .nav-item:hover, header.header_commerce .navbar-light .navbar-nav .nav-item:active {
+    border-bottom: none; }
+  header.header_commerce .navbar-light .navbar-nav .nav-item a.number, header.header_commerce .navbar-light .navbar-nav .nav-item .footer .second_div a.footer_number, .footer .second_div header.header_commerce .navbar-light .navbar-nav .nav-item a.footer_number {
     color: #ffffff; }
-    header.header_commerce .navbar-light .navbar-nav .nav-item .nav-link {
-      position: relative;
-      color: #FFFFFF;
-      padding: 0;
-      margin: 8px 8px; }
-      header.header_commerce .navbar-light .navbar-nav .nav-item .nav-link.act {
-        color: #F0145A; }
-        header.header_commerce .navbar-light .navbar-nav .nav-item .nav-link.act:after {
-          background-color: #F0145A; }
-      header.header_commerce .navbar-light .navbar-nav .nav-item .nav-link:after {
-        content: "";
-        display: block;
-        opacity: 0;
-        width: 100%;
-        height: 2px;
-        background-color: #FFFFFF;
-        position: absolute;
-        left: 0;
-        top: 100%;
-        z-index: 1;
-        transition: opacity 0.2s linear; }
-      header.header_commerce .navbar-light .navbar-nav .nav-item .nav-link:hover:after {
-        opacity: 1; }
+    header.header_commerce .navbar-light .navbar-nav .nav-item a.number:hover, header.header_commerce .navbar-light .navbar-nav .nav-item .footer .second_div a.footer_number:hover, .footer .second_div header.header_commerce .navbar-light .navbar-nav .nav-item a.footer_number:hover, header.header_commerce .navbar-light .navbar-nav .nav-item a.number:active, header.header_commerce .navbar-light .navbar-nav .nav-item .footer .second_div a.footer_number:active, .footer .second_div header.header_commerce .navbar-light .navbar-nav .nav-item a.footer_number:active {
+      color: #F0145A; }
+  header.header_commerce .navbar-light .navbar-nav .nav-item .iconify {
+    color: #FFFFFF; }
+    header.header_commerce .navbar-light .navbar-nav .nav-item .iconify:hover, header.header_commerce .navbar-light .navbar-nav .nav-item .iconify:active {
+      color: #F0145A; }
+  header.header_commerce .navbar-light .navbar-nav .nav-item .nav-link {
+    position: relative;
+    color: #FFFFFF;
+    padding: 0;
+    margin: 8px 8px; }
+    header.header_commerce .navbar-light .navbar-nav .nav-item .nav-link.act {
+      color: #F0145A; }
+      header.header_commerce .navbar-light .navbar-nav .nav-item .nav-link.act:after {
+        background-color: #F0145A; }
+    header.header_commerce .navbar-light .navbar-nav .nav-item .nav-link:after {
+      content: "";
+      display: block;
+      opacity: 0;
+      width: 100%;
+      height: 2px;
+      background-color: #FFFFFF;
+      position: absolute;
+      left: 0;
+      top: 100%;
+      z-index: 1;
+      transition: opacity 0.2s linear; }
+    header.header_commerce .navbar-light .navbar-nav .nav-item .nav-link:hover:after {
+      opacity: 1; }
 
 footer.footer_commerce {
   background: #F5F5FA; }
