@@ -58,6 +58,7 @@ img{
 }*/
 header{
   &.white{
+    z-index: 1;
     ul:nth-child(1) .top{
       color: white;
     }
@@ -66,7 +67,7 @@ header{
         color: white;
       }
     }
-    background: linear-gradient(547deg, #323271 34.93%, #323261 93.17%, #643E74 118.46%);  }
+    /*background: linear-gradient(547deg, #323271 34.93%, #323261 93.17%, #643E74 118.46%);*/  }
   padding-top: 50px;
   @media screen and (max-width: 400px) {
     .navbar-brand{
@@ -75,6 +76,9 @@ header{
   }
 }
 .services{
+  @media screen and (max-width: 1024px) {
+    padding-top: 288px;
+  }
   position: relative;
   &:after {
     content: "";
@@ -91,7 +95,7 @@ header{
   }
   background: linear-gradient(228.57deg, #323264 11.93%, #323264 57.17%, #643E72 87.46%);
   border-radius: 0 0 7px 7px;
-  padding: 65px 0 0;
+  padding: 176px 0 0;
   .container{
     .row{
         div {
