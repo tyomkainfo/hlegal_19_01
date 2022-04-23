@@ -78,6 +78,9 @@
       ul{
         list-style-type: none;
         padding-left: 16px;
+        @include max-screen(576px){
+          padding-left: 30px;
+        }
         li{
           font-family: 'Montserrat',sans-serif;
           font-style: normal;
