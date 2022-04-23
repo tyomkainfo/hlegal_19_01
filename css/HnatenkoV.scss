@@ -1,3 +1,5 @@
+@import "owl-carousel/owl.carousel.min.css";
+@import "owl-carousel/owl.theme.default.min.css";
 $main_color: #323264;
 $alt_color: #46466E;
 $soft_color: #686887;
@@ -17,6 +19,8 @@ $fw_bold: 700;
   }
 }
 
+
+/* Publication Entry Page */
 .penalty {
   padding: 180px 0 30px 0;
 
@@ -224,6 +228,7 @@ $fw_bold: 700;
   padding: 30px 0 0 0;
   background: #F5F5FA;
   border-radius: 12px 12px 0 0;
+
   .container-fluid {
     @media screen and (min-width: 1920px) {
       max-width: 1720px;
@@ -364,6 +369,242 @@ $fw_bold: 700;
   }
 }
 
+/* About Page */
+
+
+.legal_services {
+  padding: 180px 0 60px 0;
+  @include max-screen(1024px) {
+    padding: 200px 0 30px 0;
+  }
+  @include max-screen(992px) {
+    padding: 250px 0 30px 0;
+  }
+  @include max-screen(577px) {
+    padding: 30px 0 30px 0;
+  }
+    .the_idea {
+      padding-right: 15px;
+      h2 {
+        font-family: $main_font;
+        font-style: normal;
+        font-weight: $fw_bold;
+        font-size: 38px;
+        line-height: 46px;
+        background: linear-gradient(90.13deg, #F0145A 0.84%, #EF8080 99.96%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+        text-fill-color: transparent;
+        padding-bottom: 28px;
+      }
+
+      p {
+        font-family: $main_font;
+        font-style: normal;
+        font-weight: $fw_regular;
+        font-size: 19px;
+        line-height: 30px;
+        color: #000000;
+      }
+    }
+
+  .our_experience {
+    border-left: 4px solid #E6E6F0;
+    padding-left: 30px;
+
+    .flag {
+      h2 {
+        font-family: $main_font;
+        font-style: normal;
+        font-weight: $fw_bold;
+        font-size: 36px;
+        line-height: 44px;
+        background: linear-gradient(90.13deg, #F0145A 0.84%, #EF8080 99.96%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        margin-bottom: 10px;
+
+        &:before {
+          font-family: "Font Awesome 5 Free";
+          content: "\f024";
+          font-size: 27px;
+          padding-right: 12px;
+        }
+      }
+    }
+
+    .case {
+      h2 {
+        font-family: $main_font;
+        font-style: normal;
+        font-weight: $fw_bold;
+        font-size: 36px;
+        line-height: 44px;
+        background: linear-gradient(90.13deg, #F0145A 0.84%, #EF8080 99.96%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        margin-bottom: 10px;
+
+        &:before {
+          font-family: "Font Awesome 5 Free";
+          content: "\f0b1";
+          font-size: 27px;
+          padding-right: 12px;
+        }
+      }
+    }
+
+    .star {
+      h2 {
+        font-family: $main_font;
+        font-style: normal;
+        font-weight: $fw_bold;
+        font-size: 36px;
+        line-height: 44px;
+        background: linear-gradient(90.13deg, #F0145A 0.84%, #EF8080 99.96%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        margin-bottom: 10px;
+
+        &:before {
+          font-family: "Font Awesome 5 Free";
+          content: "\f5a2";
+          font-size: 27px;
+          padding-right: 12px;
+        }
+      }
+    }
+
+    p {
+      font-family: $main_font;
+      font-style: normal;
+      font-weight: $fw_regular;
+      font-size: 16px;
+      line-height: 20px;
+      color: #323264;
+      margin-bottom: 40px;
+    }
+  }
+}
+
+.team_section {
+  padding: 163px 0 158px 0;
+  background-image: url("../images/section_team.jpg");
+  background-size: cover;
+  @include max-screen(376px) {
+    padding: 35px 0 35px 0;
+    background-image: url("../images/section_team_375.jpg");
+  }
+  @include max-screen(769px) {
+    padding: 89px 0 89px 0;
+    background-image: url("../images/section_team_768.jpg");
+  }
+  @include max-screen(1025px) {
+    padding: 103px 0 103px 0;
+    background-image: url("../images/section_team_1024.jpg");
+  }
+
+  h1 {
+    font-family: $main_font;
+    font-style: normal;
+    font-weight: $fw_bold;
+    font-size: 96px;
+    line-height: 117px;
+    text-align: center;
+    letter-spacing: 63px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    @include max-screen(376px) {
+      font-size: 36px;
+      line-height: 44px;
+      letter-spacing: 13px;
+    }
+    @include max-screen(769px) {
+      font-size: 46px;
+      line-height: 56px;
+      letter-spacing: 63px;
+    }
+    @include max-screen(1025px) {
+      font-size: 86px;
+      line-height: 105px;
+      letter-spacing: 63px;
+    }
+  }
+}
+
+.about_quality {
+    padding: 60px 0 60px 0;
+  p {
+    font-family: $main_font;
+    font-style: normal;
+    font-weight: $fw_regular;
+    font-size: 19px;
+    line-height: 30px;
+    color: #000000;
+  }
+  h3 {
+    font-family: $main_font;
+    font-style: normal;
+    font-weight: $fw_bold;
+    font-size: 38px;
+    line-height: 46px;
+    background: linear-gradient(90.13deg, #F0145A 0.84%, #EF8080 99.96%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+}
+
+
+.achievements {
+  padding: 30px 0 30px 0;
+  background-color: #F5F5FA;
+  h2 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #323264;
+    margin-bottom: 30px;
+  }
+  .owl-carousel {
+    display: block;
+
+    .row {
+      flex-wrap: nowrap;
+  }
+    .owl-dots {
+      position: absolute;
+      left: 47%;
+      @include max-screen(767px) {
+        left: 43%;
+      }
+
+      span {
+        display: inline-block;
+        width: 16px;
+        height: 16px;
+        border-radius: 50%;
+        background-color: $regular_color;
+        opacity: 20%;
+        margin-right: 15px;
+      }
+
+      .owl-dot.active {
+        span {
+          opacity: 100%;
+        }
+      }
+    }
+  }
+
+}
+
+/* Header/Footer */
 header {
   &.header_public {
     .navbar {
@@ -406,5 +647,6 @@ footer {
     background: #F5F5FA;
   }
 }
+
 
 
