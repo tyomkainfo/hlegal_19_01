@@ -12,6 +12,22 @@ a{
 img{
   display: block;
 }
+.services_link{
+  margin-right: 5px;
+  font-family: $main_font;
+  font-style: normal;
+  font-weight: $font_weight_bold;
+  font-size: 14px;
+  line-height: 17px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #24A3FF;
+  margin-bottom: 10px;
+}
+.arrow-right{
+  display: inline-block;
+  padding-bottom: 2px;
+}
 /*header {
   .navbar-light {
     .navbar-nav {
