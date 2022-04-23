@@ -6,7 +6,9 @@ $font_weight_light:400;
     @content;
   }
 }
-
+.team_page{
+  padding-top: 200px;
+}
 .m_r{
   margin-right: 30px;
   margin-top: 60px;
@@ -46,8 +48,8 @@ $font_weight_light:400;
 .t_decoration{
   text-decoration: none;
   &:hover{
-    color: yellow;
-    transition: 0.5s;
+    color: #F0145A;
+
   }
 }
 .separator{
