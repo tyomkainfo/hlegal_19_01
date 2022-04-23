@@ -1734,6 +1734,9 @@ header.header_commerce .navbar-light .navbar-nav .nav-item {
 footer.footer_commerce {
   background: #F5F5FA; }
 
+.team_page {
+  padding-top: 200px; }
+
 .m_r {
   margin-right: 30px;
   margin-top: 60px; }
