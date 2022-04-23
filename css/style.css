@@ -1830,6 +1830,12 @@ footer.footer_commerce {
 @media screen and (max-width: 768px) {
   .kobzar_img {
     margin-left: -60px; } }
+@media screen and (max-width: 576px) {
+  .team_page {
+    padding-top: 0; }
+
+  .header .navbar .navbar-toggler .navbar-toggler-icon {
+    background-image: url(../images/Hamburger.svg); } }
 h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5 {
   margin: 0; }
 

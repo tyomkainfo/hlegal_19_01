@@ -1,19 +1,22 @@
-$main_font:'Montserrat', sans-serif;
-$font_weight_bold:700;
-$font_weight_light:400;
+$main_font: 'Montserrat', sans-serif;
+$font_weight_bold: 700;
+$font_weight_light: 400;
 @mixin max-screen($res) {
   @media screen and (max-width: $res) {
     @content;
   }
 }
-.team_page{
+
+.team_page {
   padding-top: 200px;
 }
-.m_r{
+
+.m_r {
   margin-right: 30px;
   margin-top: 60px;
 }
-.font_style{
+
+.font_style {
   font-family: $main_font;
   font-style: normal;
   font-weight: $font_weight_bold;
@@ -26,10 +29,12 @@ $font_weight_light:400;
   margin-bottom: 15px;
   margin-top: 60px;
 }
-.p_r{
+
+.p_r {
   padding-right: 10px;
 }
-.font_grey{
+
+.font_grey {
   font-family: $main_font;
   font-style: normal;
   font-weight: $font_weight_light;
@@ -37,7 +42,8 @@ $font_weight_light:400;
   line-height: 22px;
   color: #B3B3BA;
 }
-.font_blue{
+
+.font_blue {
   font-family: $main_font;
   font-style: normal;
   font-weight: $font_weight_light;
@@ -45,18 +51,22 @@ $font_weight_light:400;
   line-height: 20px;
   color: #24A3FF;
 }
-.t_decoration{
+
+.t_decoration {
   text-decoration: none;
-  &:hover{
+
+  &:hover {
     color: #F0145A;
 
   }
 }
-.separator{
+
+.separator {
   margin-top: 30px;
   margin-bottom: 30px;
 }
-.paragraph{
+
+.paragraph {
   font-family: $main_font;
   font-style: normal;
   font-weight: $font_weight_light;
@@ -64,7 +74,8 @@ $font_weight_light:400;
   line-height: 26px;
   color: #000000;
 }
-.head{
+
+.head {
   font-family: $main_font;
   font-style: normal;
   font-weight: $font_weight_bold;
@@ -74,40 +85,65 @@ $font_weight_light:400;
   text-transform: uppercase;
   color: #323264;
 }
-.m_t_b{
+
+.m_t_b {
   margin-top: 30px;
   margin-bottom: 15px;
 }
+
+
+
 @media screen and (max-width: 1024px) {
-.kobzar_img{
-  max-width: 300px;
-  margin-left: -30px;
-}
-  .font_style{
+  .kobzar_img {
+    max-width: 300px;
+    margin-left: -30px;
+  }
+  .font_style {
     margin-left: -5px;
   }
-  .d-flex{
+  .d-flex {
     display: flex;
     flex-direction: column;
   }
-  .dot{
+  .dot {
     display: none;
   }
-  .p_b{
+  .p_b {
     padding-bottom: 10px;
   }
-  .size{
+  .size {
     max-width: 544px;
   }
   br {
     display: none;
   }
-  }
-@media screen and (max-width: 768px){
-  .kobzar_img{
+}
+
+@media screen and (max-width: 768px) {
+  .kobzar_img {
     margin-left: -60px;
   }
-  .paragraph{
+  .paragraph {
 
   }
+}
+
+@media screen and ( max-width: 576px) {
+.team_page{
+
+  padding-top: 0;
+
+}
+.header{
+  .navbar{
+    .navbar-toggler{
+      .navbar-toggler-icon{
+        background-image: url(../images/Hamburger.svg);
+      }
+
+    }
+
+  }
+
+}
 }
