@@ -1776,8 +1776,7 @@ footer.footer_commerce {
 .t_decoration {
   text-decoration: none; }
   .t_decoration:hover {
-    color: yellow;
-    transition: 0.5s; }
+    color: #F0145A; }
 
 .separator {
   margin-top: 30px;
