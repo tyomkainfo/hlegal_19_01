@@ -4,6 +4,12 @@
   .row {
     &.commerce_top {
       padding: 176px 0 60px 0;
+      @include max-screen(768px){
+        padding: 280px 0 60px 0;
+      }
+      @include max-screen(576px){
+        padding: 132px 0 60px 0;
+      }
       &:after{
         content: "";
         height: 4px;
@@ -72,12 +78,6 @@
       ul{
         list-style-type: none;
         padding-left: 16px;
-        &:first-of-type{
-          padding: 0 37px 0 15px;
-        }
-        &:last-of-type{
-          padding: 0 15px 0 37px;
-        }
         li{
           font-family: 'Montserrat',sans-serif;
           font-style: normal;
@@ -295,6 +295,9 @@ header{
             margin: 8px 8px;
             &.act{
               color: #F0145A;
+              @include max-screen(576px){
+                color: #FFFFFF;
+              }
               &:after{
                 background-color: #F0145A;
               }
