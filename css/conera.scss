@@ -1,3 +1,4 @@
+
 /*Dark header*/
 
 .header {
@@ -16,9 +17,9 @@
   }
 
   .navbar {
-    .show {
-      display: none;
-    }
+    //.show {
+    //  display: none;
+    //}
 
     .navbar-nav {
       .nav-link {
@@ -93,17 +94,17 @@
       }
     }
   }
-    //.nav-link {
-    //  color: #24A3FF;
-    //  font-style: normal;
-    //  font-weight: 700;
-    //  font-size: 16px;
-    //  line-height: 20px;
-    //
-    //  &:hover {
-    //    color: #24A3FF;
-    //  }
-    //}
+  //.nav-link {
+  //  color: #24A3FF;
+  //  font-style: normal;
+  //  font-weight: 700;
+  //  font-size: 16px;
+  //  line-height: 20px;
+  //
+  //  &:hover {
+  //    color: #24A3FF;
+  //  }
+  //}
   //}
 
   ul {
@@ -256,12 +257,12 @@
 
 
       &:nth-child(1) {
-.nav-item.active{
-  &:hover, &:active {
-    background-color: #F0145A;
-    border-radius: 8px;
-  }
-}
+        .nav-item.active{
+          &:hover, &:active {
+            background-color: #F0145A;
+            border-radius: 8px;
+          }
+        }
         .nav-item {
 
           .iconify {
@@ -448,7 +449,7 @@
 
 }
 
-@media only screen and (max-width: 1024px) {
+@media only screen and (max-width: 1023px) {
   .header {
     .second_logo {
       display: flex;
@@ -511,12 +512,12 @@
       }
 
 
-      .show {
-        display: inline;
-      }
+      //.show {
+      //  display: inline;
+      //}
 
       .navbar-toggler {
-        display: none;
+        //display: none;
       }
     }
   }
@@ -600,6 +601,7 @@
     }
 
     .navbar {
+      flex-wrap: wrap;
       .navbar-nav {
         &:nth-child(1) {
           display: none;
@@ -617,12 +619,12 @@
       }
 
 
-      .show {
-        display: inline;
-      }
+      //.show {
+      //  display: inline;
+      //}
 
       .navbar-toggler {
-        display: none;
+        //display: none;
       }
     }
   }
@@ -762,13 +764,13 @@
           flex-direction: column;
         }
       }
-
-      .show {
-        display: inline;
-      }
+      //
+      //.show {
+      //  display: inline;
+      //}
 
       .navbar-toggler {
-        display: inline;
+        //display: inline;
         border: none;
         padding: 7px;
         transition: 0.2s;
@@ -858,4 +860,3 @@
   }
 
 }
-
