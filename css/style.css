@@ -730,6 +730,148 @@
   color: #000000;
 }
 
+/* contact_form */
+.contact_section {
+  padding: 176px 0 60px 0;
+}
+@media screen and (max-width: 1024px) {
+  .contact_section {
+    padding: 200px 0 0 0;
+  }
+}
+@media screen and (max-width: 992px) {
+  .contact_section {
+    padding: 250px 0 0 0;
+  }
+}
+@media screen and (max-width: 577px) {
+  .contact_section {
+    padding: 30px 0 30px 0;
+  }
+}
+.contact_section .city {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 21px;
+  line-height: 30px;
+  color: #323264;
+}
+.contact_section .city:after {
+  content: "";
+  display: block;
+  margin: 30px 0;
+  border-bottom: solid 4px #E6E6F0;
+}
+.contact_section .contact_number {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 21px;
+  line-height: 30px;
+  color: #46466E;
+  margin-bottom: 15px;
+}
+.contact_section .footer_mail {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 21px;
+  line-height: 30px;
+  color: #24A3FF;
+  transition: linear 0.3s;
+}
+.contact_section .footer_mail:hover {
+  color: #F0145A;
+}
+.contact_section .footer_mail:after {
+  content: "";
+  display: block;
+  margin: 30px 0;
+  border-bottom: solid 4px #E6E6F0;
+}
+.contact_section .contact_fb {
+  transition: linear 0.3s;
+}
+.contact_section .contact_fb a {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #24A3FF;
+}
+.contact_section .contact_fb a i {
+  font-size: 38px;
+  margin-right: 10px;
+}
+.contact_section .contact_fb a:hover {
+  color: #F0145A;
+}
+.contact_section .contact_form {
+  background: #F5F5FA;
+  border-radius: 12px;
+  padding: 30px;
+}
+.contact_section .contact_form h5 {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 37px;
+  background: linear-gradient(90.13deg, #F0145A 0.84%, #EF8080 99.96%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-bottom: 30px;
+}
+.contact_section .contact_form form label {
+  display: none;
+}
+.contact_section .contact_form form input, .contact_section .contact_form form textarea {
+  border: 1px solid #FFFFFF;
+  box-sizing: border-box;
+  border-radius: 8px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #B3B3BA;
+  margin-bottom: 15px;
+}
+.contact_section .contact_form h6 {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 17px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #B3B3BA;
+  margin: 30px 0 15px 0;
+}
+.contact_section .send_message .btn {
+  padding: 18px 163px;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  color: #FFFFFF;
+  background: #24A3FF;
+  box-shadow: 0 0 20px rgba(36, 163, 255, 0.5);
+  border: 0;
+  border-radius: 12px;
+}
+.contact_section .send_message .btn:hover {
+  background: #F0145A;
+  transition: background 0.3s ease;
+}
+
 /* Header/Footer */
 @media screen and (max-width: 576px) {
   header.header_public .navbar .navbar-brand img {
