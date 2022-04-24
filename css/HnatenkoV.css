@@ -1,36 +1,46 @@
+@import url(owl-carousel/owl.carousel.min.css);
+@import url(owl-carousel/owl.theme.default.min.css);
+/* Publication Entry Page */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/kiril\/Desktop\/Projects\/hlegal_19_01\/css\/HnatenkoV\.scss}line{font-family:\0000325}}
 .penalty {
-  padding: 30px 0 14px 0; }
-  @media screen and (max-width: 648px) {
+  padding: 180px 0 30px 0; }
+  @media screen and (max-width: 1024px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/kiril\/Desktop\/Projects\/hlegal_19_01\/css\/HnatenkoV\.scss}line{font-family:\0000325}}
     .penalty {
-      padding: 60px 0 14px 0; } }
-  .penalty .penalty_img {
-    position: relative;
-    overflow: hidden;
-    width: 315px;
-    height: 300px;
+      padding: 200px 0 30px 0; } }
+  @media screen and (max-width: 992px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/kiril\/Desktop\/Projects\/hlegal_19_01\/css\/HnatenkoV\.scss}line{font-family:\0000325}}
+    .penalty {
+      padding: 250px 0 30px 0; } }
+  @media screen and (max-width: 577px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/kiril\/Desktop\/Projects\/hlegal_19_01\/css\/HnatenkoV\.scss}line{font-family:\0000325}}
+    .penalty {
+      padding: 30px 0 30px 0; } }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/kiril\/Desktop\/Projects\/hlegal_19_01\/css\/HnatenkoV\.scss}line{font-family:\0000338}}
+  .penalty img {
+    height: 500px;
     border-radius: 12px; }
-    .penalty .penalty_img img {
-      position: absolute;
-      top: 50%;
-      left: 50%;
-      -webkit-transform: translate(-50%, -50%);
-      -ms-transform: translate(-50%, -50%);
-      transform: translate(-50%, -50%);
-      width: 315px;
-      height: 300px;
-      -o-object-fit: cover;
-      object-fit: cover; }
+    @media screen and (max-width: 768px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/kiril\/Desktop\/Projects\/hlegal_19_01\/css\/HnatenkoV\.scss}line{font-family:\0000338}}
+      .penalty img {
+        height: 300px; } }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/kiril\/Desktop\/Projects\/hlegal_19_01\/css\/HnatenkoV\.scss}line{font-family:\0000347}}
   .penalty h2 {
-    font-family: 'Montserrat', sans-serif;
+    font-family: "Montserrat", sans-serif;
     font-style: normal;
     font-weight: 700;
-    font-size: 20px;
-    line-height: 24px;
+    font-size: 30px;
+    line-height: 37px;
     color: #323264;
-    max-width: 315px;
     margin: 30px 0 15px 0; }
+    @media screen and (max-width: 375px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/kiril\/Desktop\/Projects\/hlegal_19_01\/css\/HnatenkoV\.scss}line{font-family:\0000347}}
+      .penalty h2 {
+        font-size: 20px;
+        line-height: 24px; } }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/kiril\/Desktop\/Projects\/hlegal_19_01\/css\/HnatenkoV\.scss}line{font-family:\0000361}}
   .penalty h3 {
-    font-family: 'Montserrat', sans-serif;
+    font-family: "Montserrat", sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 12px;
@@ -38,131 +48,178 @@
     letter-spacing: 1px;
     text-transform: uppercase;
     color: #B3B3BA; }
+    @media screen and (max-width: 375px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/kiril\/Desktop\/Projects\/hlegal_19_01\/css\/HnatenkoV\.scss}line{font-family:\0000361}}
+      .penalty h3 {
+        font-size: 12px;
+        line-height: 15px; } }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/kiril\/Desktop\/Projects\/hlegal_19_01\/css\/HnatenkoV\.scss}line{font-family:\0000375}}
     .penalty h3:after {
       content: "";
       display: block;
-      max-width: 315px;
       margin: 30px 0;
       border-bottom: solid 4px #E6E6F0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/kiril\/Desktop\/Projects\/hlegal_19_01\/css\/HnatenkoV\.scss}line{font-family:\0000383}}
   .penalty p {
-    font-family: 'Montserrat', sans-serif;
+    font-family: "Montserrat", sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
     line-height: 26px;
-    color: #000000;
-    max-width: 315px; }
+    color: #000000; }
+    @media screen and (max-width: 375px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/kiril\/Desktop\/Projects\/hlegal_19_01\/css\/HnatenkoV\.scss}line{font-family:\0000383}}
+      .penalty p {
+        font-size: 16px;
+        line-height: 26px; } }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/kiril\/Desktop\/Projects\/hlegal_19_01\/css\/HnatenkoV\.scss}line{font-family:\0000397}}
 .advertising {
   padding-bottom: 60px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/kiril\/Desktop\/Projects\/hlegal_19_01\/css\/HnatenkoV\.scss}line{font-family:\00003100}}
   .advertising h2 {
-    font-family: 'Montserrat', sans-serif;
+    font-family: "Montserrat", sans-serif;
     font-style: normal;
     font-weight: 700;
-    font-size: 30px;
-    line-height: 37px;
+    font-size: 38px;
+    line-height: 46px;
     background: linear-gradient(90.13deg, #F0145A 0.84%, #EF8080 99.96%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
     text-fill-color: transparent;
-    max-width: 315px;
     margin-bottom: 30px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/kiril\/Desktop\/Projects\/hlegal_19_01\/css\/HnatenkoV\.scss}line{font-family:\00003114}}
   .advertising h3 {
-    font-family: 'Montserrat', sans-serif;
+    font-family: "Montserrat", sans-serif;
     font-style: normal;
     font-weight: 700;
-    font-size: 16px;
-    line-height: 20px;
+    font-size: 22px;
+    line-height: 27px;
     color: #323264;
-    max-width: 315px;
     margin-bottom: 30px; }
-  .advertising ol {
-    max-width: 315px; }
-    .advertising ol li {
-      font-family: 'Montserrat', sans-serif;
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/kiril\/Desktop\/Projects\/hlegal_19_01\/css\/HnatenkoV\.scss}line{font-family:\00003125}}
+  .advertising ol li {
+    font-family: "Montserrat", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 26px;
+    color: #000000;
+    margin-bottom: 15px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/kiril\/Desktop\/Projects\/hlegal_19_01\/css\/HnatenkoV\.scss}line{font-family:\00003134}}
+    .advertising ol li::marker {
+      font-family: "Montserrat", sans-serif;
       font-style: normal;
-      font-weight: 400;
+      font-weight: 700;
       font-size: 18px;
       line-height: 26px;
-      color: #000000;
-      margin-bottom: 15px; }
-      .advertising ol li::marker {
-        font-family: 'Montserrat', sans-serif;
-        font-style: normal;
-        font-weight: 700;
-        font-size: 18px;
-        line-height: 26px;
-        color: #F0145A; }
-      .advertising ol li:last-child {
-        margin-bottom: 30px; }
+      color: #F0145A; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/kiril\/Desktop\/Projects\/hlegal_19_01\/css\/HnatenkoV\.scss}line{font-family:\00003143}}
+    .advertising ol li:last-child {
+      margin-bottom: 30px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/kiril\/Desktop\/Projects\/hlegal_19_01\/css\/HnatenkoV\.scss}line{font-family:\00003149}}
   .advertising p {
-    font-family: 'Montserrat', sans-serif;
+    font-family: "Montserrat", sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
     line-height: 26px;
     color: #000000;
-    max-width: 315px;
     margin-bottom: 30px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/kiril\/Desktop\/Projects\/hlegal_19_01\/css\/HnatenkoV\.scss}line{font-family:\00003160}}
   .advertising .img_block img {
-    width: 315px;
-    height: 196px;
-    margin-bottom: 15px; }
+    width: 640px;
+    height: 398px; }
+    @media screen and (max-width: 768px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/kiril\/Desktop\/Projects\/hlegal_19_01\/css\/HnatenkoV\.scss}line{font-family:\00003160}}
+      .advertising .img_block img {
+        width: 440px;
+        height: 298px; } }
+    @media screen and (max-width: 455px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/kiril\/Desktop\/Projects\/hlegal_19_01\/css\/HnatenkoV\.scss}line{font-family:\00003160}}
+      .advertising .img_block img {
+        width: 315px;
+        height: 196px; } }
+    @media screen and (max-width: 330px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/kiril\/Desktop\/Projects\/hlegal_19_01\/css\/HnatenkoV\.scss}line{font-family:\00003160}}
+      .advertising .img_block img {
+        width: 250px;
+        height: 165px; } }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/kiril\/Desktop\/Projects\/hlegal_19_01\/css\/HnatenkoV\.scss}line{font-family:\00003177}}
   .advertising .img_block p {
-    font-family: 'Montserrat', sans-serif;
+    font-family: "Montserrat", sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
     line-height: 22px;
     text-align: center;
     color: #B3B3BA;
+    margin-top: 15px;
     margin-bottom: 30px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/kiril\/Desktop\/Projects\/hlegal_19_01\/css\/HnatenkoV\.scss}line{font-family:\00003190}}
   .advertising h4 {
-    font-family: 'Montserrat', sans-serif;
+    font-family: "Montserrat", sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 16px;
     line-height: 20px;
     color: #323264;
-    max-width: 315px;
     margin-bottom: 15px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/kiril\/Desktop\/Projects\/hlegal_19_01\/css\/HnatenkoV\.scss}line{font-family:\00003201}}
   .advertising .social_media:before {
     content: "";
     display: block;
-    max-width: 315px;
     margin: 30px 0;
     border-bottom: solid 4px #E6E6F0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/kiril\/Desktop\/Projects\/hlegal_19_01\/css\/HnatenkoV\.scss}line{font-family:\00003208}}
   .advertising .social_media a {
     margin-right: 10px;
     background: #F5F5FA;
     border-radius: 12px;
-    cursor: pointer; }
+    cursor: pointer;
+    transition: .2s; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/kiril\/Desktop\/Projects\/hlegal_19_01\/css\/HnatenkoV\.scss}line{font-family:\00003215}}
+    .advertising .social_media a:hover {
+      background: #EDEDF7; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/kiril\/Desktop\/Projects\/hlegal_19_01\/css\/HnatenkoV\.scss}line{font-family:\00003219}}
     .advertising .social_media a img {
       margin: 9px;
       height: 24px;
       width: 24px; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/kiril\/Desktop\/Projects\/hlegal_19_01\/css\/HnatenkoV\.scss}line{font-family:\00003228}}
 .recommended {
-  padding: 30px 0 30px 0;
+  padding: 30px 0 0 0;
   background: #F5F5FA;
   border-radius: 12px 12px 0 0; }
-  .recommended .recommended_publications {
-    font-family: 'Montserrat', sans-serif;
+  @media screen and (min-width: 1920px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/kiril\/Desktop\/Projects\/hlegal_19_01\/css\/HnatenkoV\.scss}line{font-family:\00003233}}
+    .recommended .container-fluid {
+      max-width: 1720px; } }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/kiril\/Desktop\/Projects\/hlegal_19_01\/css\/HnatenkoV\.scss}line{font-family:\00003238}}
+  .recommended .container-fluid .recommended_publications {
+    font-family: "Montserrat", sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 14px;
     line-height: 17px;
     letter-spacing: 1px;
     text-transform: uppercase;
-    color: #24A3FF; }
-    .recommended .recommended_publications:after {
-      content: "\f105";
-      font-family: 'FontAwesome';
-      font-size: 12px;
-      margin-left: 5px; }
-  .recommended h4 {
-    font-family: 'Montserrat', sans-serif;
+    color: #24A3FF;
+    position: relative;
+    display: inline-block;
+    text-decoration: none; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/kiril\/Desktop\/Projects\/hlegal_19_01\/css\/HnatenkoV\.scss}line{font-family:\00003251}}
+    .recommended .container-fluid .recommended_publications i {
+      font-size: 10px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/kiril\/Desktop\/Projects\/hlegal_19_01\/css\/HnatenkoV\.scss}line{font-family:\00003255}}
+    .recommended .container-fluid .recommended_publications:hover {
+      color: #F0145A;
+      transition: 0.5s; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/kiril\/Desktop\/Projects\/hlegal_19_01\/css\/HnatenkoV\.scss}line{font-family:\00003261}}
+  .recommended .container-fluid h4 {
+    font-family: "Montserrat", sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 30px;
@@ -173,48 +230,627 @@
     background-clip: text;
     text-fill-color: transparent;
     margin-bottom: 30px; }
-  .recommended .recommended_content {
-    max-width: 315px;
-    background: #FFFFFF;
-    border-radius: 8px;
-    margin-bottom: 30px;
-    overflow: hidden; }
-    .recommended .recommended_content img {
-      width: 315px;
-      height: 200px; }
-    .recommended .recommended_content a {
-      font-family: 'Montserrat', sans-serif;
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/kiril\/Desktop\/Projects\/hlegal_19_01\/css\/HnatenkoV\.scss}line{font-family:\00003279}}
+  .recommended .container-fluid .row .col-md-4 {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 0; }
+    @media screen and (max-width: 768px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/kiril\/Desktop\/Projects\/hlegal_19_01\/css\/HnatenkoV\.scss}line{font-family:\00003285}}
+      .recommended .container-fluid .row .col-md-4:last-of-type {
+        width: 100%;
+        margin-top: 30px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/kiril\/Desktop\/Projects\/hlegal_19_01\/css\/HnatenkoV\.scss}line{font-family:\00003290}}
+      .recommended .container-fluid .row .col-md-4.div:last-child:last-child {
+        height: auto; } }
+    @media screen and (max-width: 576px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/kiril\/Desktop\/Projects\/hlegal_19_01\/css\/HnatenkoV\.scss}line{font-family:\00003279}}
+      .recommended .container-fluid .row .col-md-4 {
+        margin-top: 30px;
+        width: 100%; } }
+    @media screen and (max-width: 576px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/kiril\/Desktop\/Projects\/hlegal_19_01\/css\/HnatenkoV\.scss}line{font-family:\00003302}}
+      .recommended .container-fluid .row .col-md-4 div {
+        height: auto; } }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/kiril\/Desktop\/Projects\/hlegal_19_01\/css\/HnatenkoV\.scss}line{font-family:\00003307}}
+    .recommended .container-fluid .row .col-md-4 img {
+      border-radius: 8px 8px 0 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/kiril\/Desktop\/Projects\/hlegal_19_01\/css\/HnatenkoV\.scss}line{font-family:\00003311}}
+    .recommended .container-fluid .row .col-md-4 .recommended_content {
+      background: #FFFFFF;
+      border-radius: 8px;
+      padding: 30px;
+      height: 100%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/kiril\/Desktop\/Projects\/hlegal_19_01\/css\/HnatenkoV\.scss}line{font-family:\00003317}}
+      .recommended .container-fluid .row .col-md-4 .recommended_content a {
+        font-family: "Montserrat", sans-serif;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 20px;
+        color: #24A3FF;
+        margin-bottom: 15px;
+        position: relative;
+        display: inline-block;
+        text-decoration: none; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/kiril\/Desktop\/Projects\/hlegal_19_01\/css\/HnatenkoV\.scss}line{font-family:\00003329}}
+        .recommended .container-fluid .row .col-md-4 .recommended_content a:hover {
+          color: #F0145A;
+          transition: 0.5s; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/kiril\/Desktop\/Projects\/hlegal_19_01\/css\/HnatenkoV\.scss}line{font-family:\00003335}}
+      .recommended .container-fluid .row .col-md-4 .recommended_content span {
+        display: block;
+        font-family: 'Montserrat', sans-serif;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 12px;
+        line-height: 15px;
+        letter-spacing: 1px;
+        text-transform: uppercase;
+        color: #B3B3BA;
+        margin-bottom: 34px;
+        position: relative; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/kiril\/Desktop\/Projects\/hlegal_19_01\/css\/HnatenkoV\.scss}line{font-family:\00003348}}
+        .recommended .container-fluid .row .col-md-4 .recommended_content span:after {
+          content: "";
+          height: 4px;
+          width: 100%;
+          background: #E6E6F0;
+          position: absolute;
+          top: 30px;
+          left: 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/kiril\/Desktop\/Projects\/hlegal_19_01\/css\/HnatenkoV\.scss}line{font-family:\00003359}}
+      .recommended .container-fluid .row .col-md-4 .recommended_content p {
+        font-family: "Montserrat", sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 22px;
+        color: #000000; }
+
+/* About Page */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/kiril\/Desktop\/Projects\/hlegal_19_01\/css\/HnatenkoV\.scss}line{font-family:\00003377}}
+.legal_services {
+  padding: 180px 0 60px 0; }
+  @media screen and (max-width: 1024px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/kiril\/Desktop\/Projects\/hlegal_19_01\/css\/HnatenkoV\.scss}line{font-family:\00003377}}
+    .legal_services {
+      padding: 200px 0 30px 0; } }
+  @media screen and (max-width: 992px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/kiril\/Desktop\/Projects\/hlegal_19_01\/css\/HnatenkoV\.scss}line{font-family:\00003377}}
+    .legal_services {
+      padding: 250px 0 30px 0; } }
+  @media screen and (max-width: 577px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/kiril\/Desktop\/Projects\/hlegal_19_01\/css\/HnatenkoV\.scss}line{font-family:\00003377}}
+    .legal_services {
+      padding: 30px 0 30px 0; } }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/kiril\/Desktop\/Projects\/hlegal_19_01\/css\/HnatenkoV\.scss}line{font-family:\00003389}}
+  .legal_services .the_idea {
+    padding-right: 15px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/kiril\/Desktop\/Projects\/hlegal_19_01\/css\/HnatenkoV\.scss}line{font-family:\00003392}}
+    .legal_services .the_idea h2 {
+      font-family: "Montserrat", sans-serif;
+      font-style: normal;
+      font-weight: 700;
+      font-size: 38px;
+      line-height: 46px;
+      background: linear-gradient(90.13deg, #F0145A 0.84%, #EF8080 99.96%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+      text-fill-color: transparent;
+      padding-bottom: 28px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/kiril\/Desktop\/Projects\/hlegal_19_01\/css\/HnatenkoV\.scss}line{font-family:\00003406}}
+    .legal_services .the_idea p {
+      font-family: "Montserrat", sans-serif;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 19px;
+      line-height: 30px;
+      color: #000000; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/kiril\/Desktop\/Projects\/hlegal_19_01\/css\/HnatenkoV\.scss}line{font-family:\00003416}}
+  .legal_services .our_experience {
+    border-left: 4px solid #E6E6F0;
+    padding-left: 30px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/kiril\/Desktop\/Projects\/hlegal_19_01\/css\/HnatenkoV\.scss}line{font-family:\00003421}}
+    .legal_services .our_experience .flag h2 {
+      font-family: "Montserrat", sans-serif;
+      font-style: normal;
+      font-weight: 700;
+      font-size: 36px;
+      line-height: 44px;
+      background: linear-gradient(90.13deg, #F0145A 0.84%, #EF8080 99.96%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      margin-bottom: 10px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/kiril\/Desktop\/Projects\/hlegal_19_01\/css\/HnatenkoV\.scss}line{font-family:\00003432}}
+      .legal_services .our_experience .flag h2:before {
+        font-family: "Font Awesome 5 Free";
+        content: "\f024";
+        font-size: 27px;
+        padding-right: 12px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/kiril\/Desktop\/Projects\/hlegal_19_01\/css\/HnatenkoV\.scss}line{font-family:\00003442}}
+    .legal_services .our_experience .case h2 {
+      font-family: "Montserrat", sans-serif;
+      font-style: normal;
+      font-weight: 700;
+      font-size: 36px;
+      line-height: 44px;
+      background: linear-gradient(90.13deg, #F0145A 0.84%, #EF8080 99.96%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      margin-bottom: 10px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/kiril\/Desktop\/Projects\/hlegal_19_01\/css\/HnatenkoV\.scss}line{font-family:\00003453}}
+      .legal_services .our_experience .case h2:before {
+        font-family: "Font Awesome 5 Free";
+        content: "\f0b1";
+        font-size: 27px;
+        padding-right: 12px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/kiril\/Desktop\/Projects\/hlegal_19_01\/css\/HnatenkoV\.scss}line{font-family:\00003463}}
+    .legal_services .our_experience .star h2 {
+      font-family: "Montserrat", sans-serif;
+      font-style: normal;
+      font-weight: 700;
+      font-size: 36px;
+      line-height: 44px;
+      background: linear-gradient(90.13deg, #F0145A 0.84%, #EF8080 99.96%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      margin-bottom: 10px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/kiril\/Desktop\/Projects\/hlegal_19_01\/css\/HnatenkoV\.scss}line{font-family:\00003474}}
+      .legal_services .our_experience .star h2:before {
+        font-family: "Font Awesome 5 Free";
+        content: "\f5a2";
+        font-size: 27px;
+        padding-right: 12px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/kiril\/Desktop\/Projects\/hlegal_19_01\/css\/HnatenkoV\.scss}line{font-family:\00003483}}
+    .legal_services .our_experience p {
+      font-family: "Montserrat", sans-serif;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 20px;
+      color: #323264;
+      margin-bottom: 40px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/kiril\/Desktop\/Projects\/hlegal_19_01\/css\/HnatenkoV\.scss}line{font-family:\00003495}}
+.team_section {
+  padding: 163px 0 158px 0;
+  background-image: url("../images/section_team.jpg");
+  background-size: cover; }
+  @media screen and (max-width: 376px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/kiril\/Desktop\/Projects\/hlegal_19_01\/css\/HnatenkoV\.scss}line{font-family:\00003495}}
+    .team_section {
+      padding: 35px 0 35px 0;
+      background-image: url("../images/section_team_375.jpg"); } }
+  @media screen and (max-width: 769px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/kiril\/Desktop\/Projects\/hlegal_19_01\/css\/HnatenkoV\.scss}line{font-family:\00003495}}
+    .team_section {
+      padding: 89px 0 89px 0;
+      background-image: url("../images/section_team_768.jpg"); } }
+  @media screen and (max-width: 1025px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/kiril\/Desktop\/Projects\/hlegal_19_01\/css\/HnatenkoV\.scss}line{font-family:\00003495}}
+    .team_section {
+      padding: 103px 0 103px 0;
+      background-image: url("../images/section_team_1024.jpg"); } }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/kiril\/Desktop\/Projects\/hlegal_19_01\/css\/HnatenkoV\.scss}line{font-family:\00003512}}
+  .team_section h1 {
+    font-family: "Montserrat", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 96px;
+    line-height: 117px;
+    text-align: center;
+    letter-spacing: 63px;
+    text-transform: uppercase;
+    color: #FFFFFF; }
+    @media screen and (max-width: 376px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/kiril\/Desktop\/Projects\/hlegal_19_01\/css\/HnatenkoV\.scss}line{font-family:\00003512}}
+      .team_section h1 {
+        font-size: 36px;
+        line-height: 44px;
+        letter-spacing: 13px; } }
+    @media screen and (max-width: 769px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/kiril\/Desktop\/Projects\/hlegal_19_01\/css\/HnatenkoV\.scss}line{font-family:\00003512}}
+      .team_section h1 {
+        font-size: 46px;
+        line-height: 56px;
+        letter-spacing: 63px; } }
+    @media screen and (max-width: 1025px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/kiril\/Desktop\/Projects\/hlegal_19_01\/css\/HnatenkoV\.scss}line{font-family:\00003512}}
+      .team_section h1 {
+        font-size: 86px;
+        line-height: 105px;
+        letter-spacing: 63px; } }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/kiril\/Desktop\/Projects\/hlegal_19_01\/css\/HnatenkoV\.scss}line{font-family:\00003540}}
+.about_quality {
+  padding: 60px 0 60px 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/kiril\/Desktop\/Projects\/hlegal_19_01\/css\/HnatenkoV\.scss}line{font-family:\00003543}}
+  .about_quality p {
+    font-family: "Montserrat", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 30px;
+    color: #000000; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/kiril\/Desktop\/Projects\/hlegal_19_01\/css\/HnatenkoV\.scss}line{font-family:\00003552}}
+  .about_quality h3 {
+    font-family: "Montserrat", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 38px;
+    line-height: 46px;
+    background: linear-gradient(90.13deg, #F0145A 0.84%, #EF8080 99.96%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/kiril\/Desktop\/Projects\/hlegal_19_01\/css\/HnatenkoV\.scss}line{font-family:\00003565}}
+.achievements {
+  padding: 30px 0 30px 0;
+  background-color: #F5F5FA; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/kiril\/Desktop\/Projects\/hlegal_19_01\/css\/HnatenkoV\.scss}line{font-family:\00003569}}
+  .achievements h2 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #323264;
+    margin-bottom: 30px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/kiril\/Desktop\/Projects\/hlegal_19_01\/css\/HnatenkoV\.scss}line{font-family:\00003582}}
+  .achievements .owl-carousel {
+    display: block; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/kiril\/Desktop\/Projects\/hlegal_19_01\/css\/HnatenkoV\.scss}line{font-family:\00003585}}
+    .achievements .owl-carousel .row {
+      flex-wrap: nowrap; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/kiril\/Desktop\/Projects\/hlegal_19_01\/css\/HnatenkoV\.scss}line{font-family:\00003589}}
+    .achievements .owl-carousel .owl-dots {
+      position: absolute;
+      left: 47%; }
+      @media screen and (max-width: 767px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/kiril\/Desktop\/Projects\/hlegal_19_01\/css\/HnatenkoV\.scss}line{font-family:\00003589}}
+        .achievements .owl-carousel .owl-dots {
+          left: 43%; } }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/kiril\/Desktop\/Projects\/hlegal_19_01\/css\/HnatenkoV\.scss}line{font-family:\00003596}}
+      .achievements .owl-carousel .owl-dots span {
+        display: inline-block;
+        width: 16px;
+        height: 16px;
+        border-radius: 50%;
+        background-color: #24A3FF;
+        opacity: 20%;
+        margin-right: 15px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/kiril\/Desktop\/Projects\/hlegal_19_01\/css\/HnatenkoV\.scss}line{font-family:\00003607}}
+      .achievements .owl-carousel .owl-dots .owl-dot.active span {
+        opacity: 100%; }
+
+/* Publication Page */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/kiril\/Desktop\/Projects\/hlegal_19_01\/css\/HnatenkoV\.scss}line{font-family:\00003617}}
+.publication_page {
+  padding: 176px 0 0 0; }
+  @media screen and (max-width: 1024px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/kiril\/Desktop\/Projects\/hlegal_19_01\/css\/HnatenkoV\.scss}line{font-family:\00003617}}
+    .publication_page {
+      padding: 200px 0 0 0; } }
+  @media screen and (max-width: 992px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/kiril\/Desktop\/Projects\/hlegal_19_01\/css\/HnatenkoV\.scss}line{font-family:\00003617}}
+    .publication_page {
+      padding: 250px 0 0 0; } }
+  @media screen and (max-width: 577px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/kiril\/Desktop\/Projects\/hlegal_19_01\/css\/HnatenkoV\.scss}line{font-family:\00003617}}
+    .publication_page {
+      padding: 30px 0 0 0; } }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/kiril\/Desktop\/Projects\/hlegal_19_01\/css\/HnatenkoV\.scss}line{font-family:\00003629}}
+  .publication_page .publication_bg {
+    background: #F5F5FA;
+    border-radius: 12px 12px 0 0; }
+    @media screen and (min-width: 1920px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/kiril\/Desktop\/Projects\/hlegal_19_01\/css\/HnatenkoV\.scss}line{font-family:\00003633}}
+      .publication_page .publication_bg .container {
+        max-width: 1720px; } }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/kiril\/Desktop\/Projects\/hlegal_19_01\/css\/HnatenkoV\.scss}line{font-family:\00003639}}
+    .publication_page .publication_bg .container .publication_btn input[type=checkbox] {
+      height: 0;
+      width: 0;
+      visibility: hidden; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/kiril\/Desktop\/Projects\/hlegal_19_01\/css\/HnatenkoV\.scss}line{font-family:\00003645}}
+    .publication_page .publication_bg .container .publication_btn label {
+      cursor: pointer;
+      width: auto;
+      height: 42px;
+      background: #E6E6F0;
+      display: block;
+      border-radius: 12px;
+      position: relative;
+      padding: 0 10px;
+      font-family: "Montserrat", sans-serif;
+      font-style: normal;
+      font-weight: 700;
+      font-size: 16px;
+      line-height: 20px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/kiril\/Desktop\/Projects\/hlegal_19_01\/css\/HnatenkoV\.scss}line{font-family:\00003660}}
+      .publication_page .publication_bg .container .publication_btn label span {
+        position: relative;
+        top: 11px;
+        margin: 0 24px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/kiril\/Desktop\/Projects\/hlegal_19_01\/css\/HnatenkoV\.scss}line{font-family:\00003666}}
+      .publication_page .publication_bg .container .publication_btn label:before {
+        content: '';
+        position: absolute;
+        top: 3px;
+        left: 3px;
+        width: 50%;
+        height: 38px;
+        background: #fff;
+        border-radius: 12px;
+        transition: 0.3s;
+        z-index: 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/kiril\/Desktop\/Projects\/hlegal_19_01\/css\/HnatenkoV\.scss}line{font-family:\00003679}}
+      .publication_page .publication_bg .container .publication_btn label:active:before {
+        width: 130px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/kiril\/Desktop\/Projects\/hlegal_19_01\/css\/HnatenkoV\.scss}line{font-family:\00003684}}
+    .publication_page .publication_bg .container .publication_btn input:checked + label {
+      background: #E6E6F0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/kiril\/Desktop\/Projects\/hlegal_19_01\/css\/HnatenkoV\.scss}line{font-family:\00003688}}
+    .publication_page .publication_bg .container .publication_btn input:checked + label:before {
+      left: calc(100% - 5px);
+      transform: translateX(-100%); }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/kiril\/Desktop\/Projects\/hlegal_19_01\/css\/HnatenkoV\.scss}line{font-family:\00003695}}
+    .publication_page .publication_bg .container .more_publications .btn {
+      padding: 18px 30px;
+      display: inline-block;
+      text-decoration: none;
+      font-family: "Montserrat", sans-serif;
       font-style: normal;
       font-weight: 700;
       font-size: 16px;
       line-height: 20px;
-      color: #24A3FF;
-      max-width: 255px;
+      color: #FFFFFF;
+      background: #24A3FF;
+      box-shadow: 0px 0px 20px rgba(36, 163, 255, 0.5);
+      border: 0;
+      border-radius: 12px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/kiril\/Desktop\/Projects\/hlegal_19_01\/css\/HnatenkoV\.scss}line{font-family:\00003711}}
+      .publication_page .publication_bg .container .more_publications .btn:hover {
+        background: #F0145A;
+        transition: background 0.3s ease; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/kiril\/Desktop\/Projects\/hlegal_19_01\/css\/HnatenkoV\.scss}line{font-family:\00003722}}
+    .publication_page .publication_bg .container .row .col-md-4 {
+      display: flex;
+      flex-direction: column;
+      flex-grow: 0; }
+      @media screen and (max-width: 768px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/kiril\/Desktop\/Projects\/hlegal_19_01\/css\/HnatenkoV\.scss}line{font-family:\00003728}}
+        .publication_page .publication_bg .container .row .col-md-4:last-of-type {
+          width: 100%;
+          margin-top: 30px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/kiril\/Desktop\/Projects\/hlegal_19_01\/css\/HnatenkoV\.scss}line{font-family:\00003733}}
+        .publication_page .publication_bg .container .row .col-md-4.div:last-child:last-child {
+          height: auto; } }
+      @media screen and (max-width: 576px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/kiril\/Desktop\/Projects\/hlegal_19_01\/css\/HnatenkoV\.scss}line{font-family:\00003722}}
+        .publication_page .publication_bg .container .row .col-md-4 {
+          margin-top: 30px;
+          width: 100%; } }
+      @media screen and (max-width: 576px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/kiril\/Desktop\/Projects\/hlegal_19_01\/css\/HnatenkoV\.scss}line{font-family:\00003745}}
+        .publication_page .publication_bg .container .row .col-md-4 div {
+          height: auto; } }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/kiril\/Desktop\/Projects\/hlegal_19_01\/css\/HnatenkoV\.scss}line{font-family:\00003750}}
+      .publication_page .publication_bg .container .row .col-md-4 img {
+        border-radius: 8px 8px 0 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/kiril\/Desktop\/Projects\/hlegal_19_01\/css\/HnatenkoV\.scss}line{font-family:\00003754}}
+      .publication_page .publication_bg .container .row .col-md-4 .recommended_content {
+        background: #FFFFFF;
+        border-radius: 8px;
+        padding: 30px;
+        height: 100%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/kiril\/Desktop\/Projects\/hlegal_19_01\/css\/HnatenkoV\.scss}line{font-family:\00003760}}
+        .publication_page .publication_bg .container .row .col-md-4 .recommended_content a {
+          font-family: "Montserrat", sans-serif;
+          font-style: normal;
+          font-weight: 700;
+          font-size: 16px;
+          line-height: 20px;
+          color: #24A3FF;
+          margin-bottom: 15px;
+          position: relative;
+          display: inline-block;
+          text-decoration: none; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/kiril\/Desktop\/Projects\/hlegal_19_01\/css\/HnatenkoV\.scss}line{font-family:\00003772}}
+          .publication_page .publication_bg .container .row .col-md-4 .recommended_content a:hover {
+            color: #F0145A;
+            transition: 0.5s; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/kiril\/Desktop\/Projects\/hlegal_19_01\/css\/HnatenkoV\.scss}line{font-family:\00003778}}
+        .publication_page .publication_bg .container .row .col-md-4 .recommended_content span {
+          display: block;
+          font-family: 'Montserrat', sans-serif;
+          font-style: normal;
+          font-weight: 700;
+          font-size: 12px;
+          line-height: 15px;
+          letter-spacing: 1px;
+          text-transform: uppercase;
+          color: #B3B3BA;
+          margin-bottom: 34px;
+          position: relative; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/kiril\/Desktop\/Projects\/hlegal_19_01\/css\/HnatenkoV\.scss}line{font-family:\00003791}}
+          .publication_page .publication_bg .container .row .col-md-4 .recommended_content span:after {
+            content: "";
+            height: 4px;
+            width: 100%;
+            background: #E6E6F0;
+            position: absolute;
+            top: 30px;
+            left: 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/kiril\/Desktop\/Projects\/hlegal_19_01\/css\/HnatenkoV\.scss}line{font-family:\00003802}}
+        .publication_page .publication_bg .container .row .col-md-4 .recommended_content p {
+          font-family: "Montserrat", sans-serif;
+          font-style: normal;
+          font-weight: 400;
+          font-size: 14px;
+          line-height: 22px;
+          color: #000000; }
+
+/* contact_form */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/kiril\/Desktop\/Projects\/hlegal_19_01\/css\/HnatenkoV\.scss}line{font-family:\00003820}}
+.contact_section {
+  padding: 176px 0 60px 0; }
+  @media screen and (max-width: 1024px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/kiril\/Desktop\/Projects\/hlegal_19_01\/css\/HnatenkoV\.scss}line{font-family:\00003820}}
+    .contact_section {
+      padding: 200px 0 0 0; } }
+  @media screen and (max-width: 992px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/kiril\/Desktop\/Projects\/hlegal_19_01\/css\/HnatenkoV\.scss}line{font-family:\00003820}}
+    .contact_section {
+      padding: 250px 0 0 0; } }
+  @media screen and (max-width: 577px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/kiril\/Desktop\/Projects\/hlegal_19_01\/css\/HnatenkoV\.scss}line{font-family:\00003820}}
+    .contact_section {
+      padding: 30px 0 30px 0; } }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/kiril\/Desktop\/Projects\/hlegal_19_01\/css\/HnatenkoV\.scss}line{font-family:\00003832}}
+  .contact_section .city {
+    font-family: "Montserrat", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 21px;
+    line-height: 30px;
+    color: #323264; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/kiril\/Desktop\/Projects\/hlegal_19_01\/css\/HnatenkoV\.scss}line{font-family:\00003839}}
+    .contact_section .city:after {
+      content: "";
       display: block;
-      margin: 30px auto 15px; }
-    .recommended .recommended_content h6 {
-      font-family: 'Montserrat', sans-serif;
+      margin: 30px 0;
+      border-bottom: solid 4px #E6E6F0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/kiril\/Desktop\/Projects\/hlegal_19_01\/css\/HnatenkoV\.scss}line{font-family:\00003847}}
+  .contact_section .contact_number {
+    font-family: "Montserrat", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 21px;
+    line-height: 30px;
+    color: #46466E;
+    margin-bottom: 15px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/kiril\/Desktop\/Projects\/hlegal_19_01\/css\/HnatenkoV\.scss}line{font-family:\00003857}}
+  .contact_section .footer_mail {
+    font-family: "Montserrat", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 21px;
+    line-height: 30px;
+    color: #24A3FF;
+    transition: linear .3s; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/kiril\/Desktop\/Projects\/hlegal_19_01\/css\/HnatenkoV\.scss}line{font-family:\00003865}}
+    .contact_section .footer_mail:hover {
+      color: #F0145A; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/kiril\/Desktop\/Projects\/hlegal_19_01\/css\/HnatenkoV\.scss}line{font-family:\00003868}}
+    .contact_section .footer_mail:after {
+      content: "";
+      display: block;
+      margin: 30px 0;
+      border-bottom: solid 4px #E6E6F0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/kiril\/Desktop\/Projects\/hlegal_19_01\/css\/HnatenkoV\.scss}line{font-family:\00003876}}
+  .contact_section .contact_fb {
+    transition: linear .3s; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/kiril\/Desktop\/Projects\/hlegal_19_01\/css\/HnatenkoV\.scss}line{font-family:\00003878}}
+    .contact_section .contact_fb a {
+      font-family: "Montserrat", sans-serif;
       font-style: normal;
       font-weight: 700;
       font-size: 12px;
-      line-height: 15px;
+      line-height: 16px;
+      letter-spacing: 1px;
+      text-transform: uppercase;
+      color: #24A3FF; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/kiril\/Desktop\/Projects\/hlegal_19_01\/css\/HnatenkoV\.scss}line{font-family:\00003887}}
+      .contact_section .contact_fb a i {
+        font-size: 38px;
+        margin-right: 10px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/kiril\/Desktop\/Projects\/hlegal_19_01\/css\/HnatenkoV\.scss}line{font-family:\00003891}}
+      .contact_section .contact_fb a:hover {
+        color: #F0145A; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/kiril\/Desktop\/Projects\/hlegal_19_01\/css\/HnatenkoV\.scss}line{font-family:\00003898}}
+  .contact_section .contact_form {
+    background: #F5F5FA;
+    border-radius: 12px;
+    padding: 30px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/kiril\/Desktop\/Projects\/hlegal_19_01\/css\/HnatenkoV\.scss}line{font-family:\00003902}}
+    .contact_section .contact_form h5 {
+      font-family: "Montserrat", sans-serif;
+      font-style: normal;
+      font-weight: 700;
+      font-size: 30px;
+      line-height: 37px;
+      background: linear-gradient(90.13deg, #F0145A 0.84%, #EF8080 99.96%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      margin-bottom: 30px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/kiril\/Desktop\/Projects\/hlegal_19_01\/css\/HnatenkoV\.scss}line{font-family:\00003914}}
+    .contact_section .contact_form form label {
+      display: none; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/kiril\/Desktop\/Projects\/hlegal_19_01\/css\/HnatenkoV\.scss}line{font-family:\00003918}}
+    .contact_section .contact_form form input, .contact_section .contact_form form textarea {
+      border: 1px solid #FFFFFF;
+      box-sizing: border-box;
+      border-radius: 8px;
+      font-family: 'Montserrat';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 26px;
+      color: #B3B3BA;
+      margin-bottom: 15px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/kiril\/Desktop\/Projects\/hlegal_19_01\/css\/HnatenkoV\.scss}line{font-family:\00003931}}
+    .contact_section .contact_form h6 {
+      font-family: "Montserrat", sans-serif;
+      font-style: normal;
+      font-weight: 700;
+      font-size: 14px;
+      line-height: 17px;
       letter-spacing: 1px;
       text-transform: uppercase;
       color: #B3B3BA;
-      max-width: 255px;
-      margin: auto; }
-      .recommended .recommended_content h6:after {
-        content: "";
-        display: block;
-        max-width: 255px;
-        margin: 15px auto;
-        border-bottom: solid 4px #E6E6F0; }
-    .recommended .recommended_content p {
-      font-family: 'Montserrat', sans-serif;
-      font-style: normal;
-      font-weight: 400;
-      font-size: 14px;
-      line-height: 22px;
-      color: #000000;
-      max-width: 255px;
-      margin: 0 auto 30px; }
+      margin: 30px 0 15px 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/kiril\/Desktop\/Projects\/hlegal_19_01\/css\/HnatenkoV\.scss}line{font-family:\00003944}}
+  .contact_section .send_message .btn {
+    padding: 18px 163px;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: "Montserrat", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    color: #FFFFFF;
+    background: #24A3FF;
+    box-shadow: 0px 0px 20px rgba(36, 163, 255, 0.5);
+    border: 0;
+    border-radius: 12px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/kiril\/Desktop\/Projects\/hlegal_19_01\/css\/HnatenkoV\.scss}line{font-family:\00003960}}
+    .contact_section .send_message .btn:hover {
+      background: #F0145A;
+      transition: background 0.3s ease; }
+
+/* Header/Footer */
+@media screen and (max-width: 576px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/kiril\/Desktop\/Projects\/hlegal_19_01\/css\/HnatenkoV\.scss}line{font-family:\00003973}}
+  header.header_public .navbar .navbar-brand img {
+    height: 57px;
+    width: 215px; } }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/kiril\/Desktop\/Projects\/hlegal_19_01\/css\/HnatenkoV\.scss}line{font-family:\00003984}}
+header.header_public .navbar .navbar-nav.navbar-public .nav-public:hover {
+  border-bottom: 3px #F0145A solid; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/kiril\/Desktop\/Projects\/hlegal_19_01\/css\/HnatenkoV\.scss}line{font-family:\00003990}}
+header.header_public .navbar .navbar-nav.navbar-public .nav-link.link_public {
+  color: #F0145A; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/kiril\/Desktop\/Projects\/hlegal_19_01\/css\/HnatenkoV\.scss}line{font-family:\00003998}}
+header.header_public .navbar .navbar-toggler .navbar-toggler-icon {
+  background-image: url("../images/Hamburger.svg"); }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/kiril\/Desktop\/Projects\/hlegal_19_01\/css\/HnatenkoV\.scss}line{font-family:\000031007}}
+footer.footer_public {
+  background: #F5F5FA; }

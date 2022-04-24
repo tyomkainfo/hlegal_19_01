@@ -703,7 +703,8 @@ $fw_bold: 700;
           line-height: 20px;
           color: #FFFFFF;
           background: #24A3FF;
-          box-shadow: 0 0 20px rgb(36 163 255 / 50%);
+          box-shadow: 0px 0px 20px rgba(36, 163, 255, 0.5);
+          //box-shadow: 0 0 20px rgb(36 163 255 / 50%);
           border: 0;
           border-radius: 12px;
 
@@ -951,7 +952,8 @@ $fw_bold: 700;
       line-height: 20px;
       color: #FFFFFF;
       background: #24A3FF;
-      box-shadow: 0 0 20px rgb(36 163 255 / 50%);
+      box-shadow: 0px 0px 20px rgba(36, 163, 255, 0.5);
+      //box-shadow: 0 0 20px rgb(36 163 255 / 50%);
       border: 0;
       border-radius: 12px;
 
